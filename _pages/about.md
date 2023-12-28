@@ -14,7 +14,7 @@ Here, I’ll share my latest work, achievements, and updates in the field.
 
 News
 ======
-**_12/2023_**   I’m currently summarizing some papers on [structure-based molecular generation](https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation)
+**_12/2023_**  &nbsp;&nbsp;&nbsp;&nbsp; I’m currently summarizing some papers on [structure-based molecular generation](https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation)
 
 Publications
 ======
