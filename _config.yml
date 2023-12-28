@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Xudong Zhang"
-  avatar           : "/images/zxd.png"
+  avatar           : "./images/zxd.png"
   bio              : "Ph.D. in CS at Tongji Univesity"
   location         : "Shanghai"
   employer         :
