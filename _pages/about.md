@@ -8,15 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hey there! I’m now a a first year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the Embodied Perception and Computing Lab.
-
-My current research interests primarily focus on AI-assisted drug design, including: (1) Structure-based drug design. (2) Generative models. (3) Transfer learning.
+Hey there! I’m now a a first year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the Embodied Perception and Computing Lab. My research interests are AI-assisted drug design, including: (1) Structure-based drug design. (2) Generative models. (3) Transfer learning.
 
 Here, I’ll share my latest work, achievements, and updates in the field.
 
 News
 ======
-**12/2023** I will summary some papers of structure-based drug design.
+**12/2023** I’m currently summarizing some papers on [structure-based molecular generation](https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation)
 
 Publications
 ======
