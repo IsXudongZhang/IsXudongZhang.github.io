@@ -12,7 +12,7 @@ Hey there! I’m now a a first year Ph.D. student in Computer Science and Techno
 
 Updates
 ======
-**_2023.12_**  &nbsp;&nbsp;&nbsp;&nbsp; I’m currently summarizing some papers on [Structure-based Molecular Generation](https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation)
+**_2023.12_**  &nbsp;&nbsp;&nbsp;&nbsp; I’m currently summarizing some papers on [Structure-based Molecular Generation](https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation).
 
 
 
