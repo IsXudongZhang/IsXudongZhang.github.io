@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Xudong Zhang"
   avatar           : "./images/zxd.png"
-  bio              : "Ph.D. in CS at Tongji Univesity"
+  bio              : "Tongji Univesity"
   location         : "Shanghai"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            :  "east@tongji.edu.cn"
   researchgate     :  "https://www.researchgate.net/profile/Xudong-Zhang-10"
   uri              :
   bitbucket        :
