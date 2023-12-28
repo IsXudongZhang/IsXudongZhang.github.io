@@ -25,6 +25,5 @@ Publications
 
 Honors and Awards
 ======
-**_2023.04_** &nbsp;&nbsp;&nbsp;&nbsp; Outstanding Graduate of Shandong Province 
-
-**_2022.12_** &nbsp;&nbsp;&nbsp;&nbsp; National scholarship for Postgraduates
+* **_2023.04_** &nbsp;&nbsp;&nbsp;&nbsp; Outstanding Graduate of Shandong Province 
+* **_2022.12_** &nbsp;&nbsp;&nbsp;&nbsp; National scholarship for Postgraduates
