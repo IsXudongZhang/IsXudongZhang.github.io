@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hey there! I’m now a a first year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the [Embodied Perception and Computing Lab](https://ispc-group.github.io/). My research interests are AI-assisted drug design, including: (1) Structure-based drug design. (2) Generative models. (3) Transfer learning.
+Hey there! I’m now a first year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the [Embodied Perception and Computing Lab](https://ispc-group.github.io/). My research interests are AI-assisted drug design, including: (1) Structure-based drug design. (2) Generative models. (3) Transfer learning.
 
 Updates
 ======
