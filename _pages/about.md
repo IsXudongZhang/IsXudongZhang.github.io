@@ -12,7 +12,7 @@ I’m now a first year Ph.D. student in Computer Science and Technology at Tongj
 
 Updates
 ======
-* **_2023.12_**    &nbsp;&nbsp;&nbsp;&nbsp; I’m currently summarizing some papers on [Structure-based Molecular Generation](https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation).
+* **_2023.12_**   &nbsp;&nbsp;&nbsp;&nbsp;  I’m currently summarizing some papers on [Structure-based Molecular Generation](https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation).
 * **_2022.09._**  &nbsp;&nbsp;&nbsp;&nbsp; Our work on medical image segmentation is accepted by IEEE Journal of Biomedical and Health Informatics (IF: 7.7).
 * **_2022.07._**  &nbsp;&nbsp;&nbsp;&nbsp; Our work (Molormer) on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994).
 * **_2021.12._**  &nbsp;&nbsp;&nbsp;&nbsp; Our work on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994).
