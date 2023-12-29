@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Hey there! "
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Hey there! I’m now a first year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the [Embodied Perception and Computing Lab](https://ispc-group.github.io/). My research interests are AI-assisted drug design, including: (1) Structure-based molecular generation. (2) Generative models. (3) Transfer learning.
+I’m now a first year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the [Embodied Perception and Computing Lab](https://ispc-group.github.io/). My research interests are AI-assisted drug design, including: (1) Structure-based molecular generation. (2) Generative models. (3) Transfer learning.
 
 Updates
 ======
-TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2
 * **_2023.12_**  &nbsp;&nbsp;&nbsp;&nbsp; I’m currently summarizing some papers on [Structure-based Molecular Generation](https://github.com/IsXudongZhang/Papers-for-structure-based-molecular-generation).
 * **_2023.02._**  &nbsp;&nbsp;&nbsp;&nbsp; Our work（DeepFusion）is accepted by IEEE Journal of Biomedical and Health Informatics (IF: 7.7).
 * **_2022.09._**  &nbsp;&nbsp;&nbsp;&nbsp; Our work on medical image segmentation is accepted by IEEE Journal of Biomedical and Health Informatics (IF: 7.7).
