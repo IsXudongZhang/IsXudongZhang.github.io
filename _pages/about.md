@@ -21,8 +21,7 @@ Updates
 
 Publications
 ======
-**Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction**
-
+**Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction** \\
 **Xudong Zhang**, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang, Xun Wang
 
 Briefings in Bioinformatics
