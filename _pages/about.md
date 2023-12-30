@@ -21,7 +21,10 @@ Updates
 
 Publications
 ======
-1. Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction
+**Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction**
+**Xudong Zhang**, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang, Xun Wang
+Briefings in Bioinformatics
+[[BIB]](https://doi.org/10.1093/bib/bbac296) [PDF](files/molormer.pdf) [code](https://github.com/IsXudongZhang/Molormer)
 2. TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2
 3. AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction
 4. DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions
