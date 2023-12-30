@@ -25,15 +25,11 @@ Publications
 **Xudong Zhang**, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang, Xun Wang  
 Briefings in Bioinformatics (BIB), 2022  
 [[Link]](https://doi.org/10.1093/bib/bbac296) [[PDF]](files/molormer.pdf) [[code]](https://github.com/IsXudongZhang/Molormer)  
-<div align=center><img width="435" alt="image" src="https://github.com/IsXudongZhang/IsXudongZhang.github.io/assets/105139522/13f7b1ef-18cd-41f8-9aa3-12042655ba0d"> </div>
 
-
-**Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction**  
-**Xudong Zhang**, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang, Xun Wang  
-Briefings in Bioinformatics (BIB), 2022  
-[[Link]](https://doi.org/10.1093/bib/bbac296) [[PDF]](files/molormer.pdf) [[code]](https://github.com/IsXudongZhang/Molormer)
-
-2. TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2
+**TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2**
+Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng
+IEEE Journal of Biomedical and Health Informatics (JBHI), 2022
+[[Link]](https://ieeexplore.ieee.org/document/9893911) [[PDF]](files/jbhi.pdf)
 3. AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction
 4. DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions
 
