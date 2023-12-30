@@ -26,15 +26,15 @@ Publications
 Briefings in Bioinformatics (BIB), 2022  
 [[Link]](https://doi.org/10.1093/bib/bbac296) [[PDF]](files/molormer.pdf) [[code]](https://github.com/IsXudongZhang/Molormer)  
 
-**TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2**  
-Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng  
-IEEE Journal of Biomedical and Health Informatics (JBHI), 2022  
-[[Link]](https://ieeexplore.ieee.org/document/9893911) [[PDF]](files/jbi.pdf) 
-
 **DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions**  
 Tao Song, **Xudong Zhang**, Mao Ding, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang  
 Methods, 2022  
 [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub) [[PDF]](files/deepfusion.pdf) [[code]](https://github.com/IsXudongZhang/DeepFusion)
+
+**TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2**  
+Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng  
+IEEE Journal of Biomedical and Health Informatics (JBHI), 2022  
+[[Link]](https://ieeexplore.ieee.org/document/9893911) [[PDF]](files/jbi.pdf) 
 
 **AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction**  
 Shanchen Pang, Ying Zhang, Tao Song, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón  
