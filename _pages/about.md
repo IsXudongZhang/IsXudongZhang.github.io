@@ -26,11 +26,16 @@ Publications
 Briefings in Bioinformatics (BIB), 2022  
 [[Link]](https://doi.org/10.1093/bib/bbac296) [[PDF]](files/molormer.pdf) [[code]](https://github.com/IsXudongZhang/Molormer)  
 
-**TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2**
-Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng
-IEEE Journal of Biomedical and Health Informatics (JBHI), 2022
-[[Link]](https://ieeexplore.ieee.org/document/9893911) [[PDF]](files/jbhi.pdf)
-3. AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction
+**TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2**  
+Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng  
+IEEE Journal of Biomedical and Health Informatics (JBHI), 2022  
+[[Link]](https://ieeexplore.ieee.org/document/9893911) [[PDF]](files/jbi.pdf) 
+
+**AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction**  
+Shanchen Pang, Ying Zhang, Tao Song, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón  
+Briefings in Bioinformatics (BIB), 2021  
+[[Link]](https://doi.org/10.1093/bib/bbab545) [[PDF]](files/AMDE.pdf) [[code]](https://github.com/wan-YingZ/AMDE-master)  
+
 4. DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions
 
 Honors and Awards
