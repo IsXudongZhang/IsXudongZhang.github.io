@@ -33,7 +33,7 @@ IEEE Journal of Biomedical and Health Informatics (JBHI), 2022
 
 **DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions**  
 Tao Song, **Xudong Zhang**, Mao Ding, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang  
-Methods, 2022 
+Methods, 2022  
 [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub) [[PDF]](files/deepfusion.pdf) [[code]](https://github.com/IsXudongZhang/DeepFusion)
 
 **AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction**  
