@@ -12,7 +12,7 @@ Hey there! I’m now a first year Ph.D. student in Computer Science and Technolo
 
 News
 ======
-* **2023.12:** I’m currently summarizing some papers on [AI for Drug Design]([https://github.com/IsXudongZhang/Papers-for-AI-assisted-drug-design?tab=readme-ov-file#top](https://github.com/IsXudongZhang/Papers-for-AIDD)).
+* **2023.12:** I’m currently summarizing some papers on [AI for Drug Design](https://github.com/IsXudongZhang/Papers-for-AIDD).
 * **2022.09:** Our work on medical image segmentation is accepted by IEEE Journal of Biomedical and Health Informatics (IF: 7.7).
 * **2022.07:** Our work (Molormer) on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994).
 * **2021.12:** Our work on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994).
