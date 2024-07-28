@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hey there! I’m now a first year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the [Eobotics & Embodied AI Lab](https://ispc-group.github.io/). My research interests are AI-assisted drug design, including: (1) Structure-based molecular generation. (2) Generative models. (3) Transfer learning.
+Hey there! I’m now a first year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the [Eobotics & Embodied AI Lab](https://ispc-group.github.io/). My research interests are AI for drug design, including (1) Structure-based molecular generation. (2) Generative models. (3) Transfer learning. I am a reviewer for Briefings in Bioinformatics, Journal of Cheminformatics, BioData Mining, and BMC Bioinformatics.
 
 News
 ======
-* **2023.12:** I’m currently summarizing some papers on [AI for Drug Design](https://github.com/IsXudongZhang/Papers-for-AIDD).
+* **2023.12:** I’m currently summarizing papers on [AI for Drug Design](https://github.com/IsXudongZhang/Papers-for-AIDD).
 * **2022.09:** Our work on medical image segmentation is accepted by IEEE Journal of Biomedical and Health Informatics (IF: 7.7).
 * **2022.07:** Our work (Molormer) on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994).
 * **2021.12:** Our work on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994).
