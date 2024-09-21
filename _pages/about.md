@@ -47,5 +47,5 @@ Briefings in Bioinformatics (BIB), 2021
 
 Honors and Awards
 ======
-* **2023.04:** Outstanding Graduate of Province
+* **2023.04:** Outstanding Graduate of Shandong Province
 * **2022.12:** National scholarship for Postgraduates
