@@ -22,7 +22,8 @@ News
 Publications
 ======
 **Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets**  
-**Xudong Zhang**, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang, Guang Chen <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+**Xudong Zhang**, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<i class="fas fa-envelope"></i>, Guang Chen <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <i class="fas fa-envelope"></i>, Alois Knoll, Shaorong Gao  
 Briefings in Bioinformatics (BIB), 2024 
 
