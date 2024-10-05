@@ -10,9 +10,9 @@ redirect_from:
 
 Hey there! I’m currently a second-year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the [Eobotics & Embodied AI Lab](https://ispc-group.github.io/). My research focuses on **AI for drug design**, with specific interests in (1) structure-based molecular generation, (2) generative models, and (3) transfer learning. Now, I serve as a reviewer for Briefings in Bioinformatics, Journal of Cheminformatics, BioData Mining, BMC Bioinformatics, and others.
 
-News
+&#x1F4E3; News
 ======
-&#x1F4E3; **2024.10:** Our work (AMG) on structure-based molecular generation is accepted by Briefings in Bioinformatics!
+&#x1F389; **2024.10:** Our work (AMG) on structure-based molecular generation is accepted by Briefings in Bioinformatics!
 
 &#x1F4E3; **2022.09:** Our work on medical image segmentation is accepted by IEEE Journal of Biomedical and Health Informatics (IF: 7.7)!
 
