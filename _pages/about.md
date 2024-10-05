@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hey there! I’m currently a second-year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the [Eobotics & Embodied AI Lab](https://ispc-group.github.io/). My research focuses on **AI for drug design**, with specific interests in (1) structure-based molecular generation, (2) generative models, and (3) transfer learning.
+Hey there! I’m currently a second-year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. Guang Chen, the head of the [Eobotics & Embodied AI Lab](https://ispc-group.github.io/). My research focuses on **AI for drug design**, with specific interests in (1) structure-based drug discovery, (2) generative models, and (3) transfer learning.
 
 &#x1F4E3; News
 ======
@@ -55,6 +55,6 @@ Briefings in Bioinformatics (BIB), 2021
 * **2023.04:** Outstanding Graduate of Shandong Province
 * **2022.12:** National scholarship for Postgraduates
 
-&#128218; Academic Service
+&#x1F30F; Academic Service
 ======
 I serve as a reviewer for Briefings in Bioinformatics, Journal of Cheminformatics, BioData Mining, BMC Bioinformatics.
