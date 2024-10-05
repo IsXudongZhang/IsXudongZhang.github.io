@@ -22,7 +22,7 @@ News
 Publications
 ======
 **Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets**  
-**Xudong Zhang**, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang:envelope:, Guang Chen :envelope:, Alois Knoll, Shaorong Gao  
+**Xudong Zhang**, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang:envelope:, Guang Chen:envelope:, Alois Knoll, Shaorong Gao  
 Briefings in Bioinformatics (BIB), 2024 
 
 **Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction**  
