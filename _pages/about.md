@@ -13,8 +13,11 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 News
 ======
 &#x1F4E3; **2024.10:** Our work on structure-based molecular generation is accepted by Briefings in Bioinformatics!
+
 &#x1F4E3; **2022.09:** Our work on medical image segmentation is accepted by IEEE Journal of Biomedical and Health Informatics (IF: 7.7)!
+
 &#x1F4E3; **2022.07:** Our work (Molormer) on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994)!
+
 &#x1F4E3; **2021.12:** Our work on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994)!
 
 
