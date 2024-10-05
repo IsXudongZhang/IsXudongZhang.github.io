@@ -22,22 +22,16 @@ News
 Publications
 ======
 **Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets**  
-**Xudong Zhang**, Jing Hou<sup>*</sup>, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<i class="fas fa-envelope"></i>, Guang Chen <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<i class="fas fa-envelope"></i>, Alois Knoll, Shaorong Gao  
+**Xudong Zhang**, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang<sup>*</sup>, Guang Chen<sup>*</sup>, Alois Knoll, Shaorong Gao  
 Briefings in Bioinformatics (BIB), 2024 
 
 **Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction**  
-**Xudong Zhang**, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<i class="fas fa-envelope"></i>, Xun Wang<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<i class="fas fa-envelope"></i>  
+**Xudong Zhang**, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang<sup>*</sup>, Xun Wang<sup>*</sup>  
 Briefings in Bioinformatics (BIB), 2022  
 [[Link]](https://doi.org/10.1093/bib/bbac296) [[PDF]](files/molormer.pdf) [[Code]](https://github.com/IsXudongZhang/Molormer)
 
 **DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions**  
-Tao Song<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<i class="fas fa-envelope"></i>, **Xudong Zhang**, Mao Ding<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<i class="fas fa-envelope"></i>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang  
+Tao Song<sup>*</sup>, **Xudong Zhang**, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang  
 Methods, 2022  
 [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub) [[PDF]](files/deepfusion.pdf) [[Code]](https://github.com/IsXudongZhang/DeepFusion)
 
@@ -47,8 +41,7 @@ IEEE Journal of Biomedical and Health Informatics (JBHI), 2022
 [[Link]](https://ieeexplore.ieee.org/document/9893911) [[PDF]](files/jbi.pdf) 
 
 **AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction**  
-Shanchen Pang, Ying Zhang, Tao Song<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<i class="fas fa-envelope"></i>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón  
+Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón  
 Briefings in Bioinformatics (BIB), 2021  
 [[Link]](https://doi.org/10.1093/bib/bbab545) [[PDF]](files/AMDE.pdf) [[Code]](https://github.com/wan-YingZ/AMDE-master)  
 
