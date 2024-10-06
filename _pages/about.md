@@ -37,7 +37,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/e07cdd1d-ed6c-42fb-9f96-a99dda4a56cc" alt="image" style="width: 200px; margin-right: 2px;">
+  <img src="https://github.com/user-attachments/assets/e07cdd1d-ed6c-42fb-9f96-a99dda4a56cc" alt="image" style="width: 200px; margin-right: 20px;">
   <div>
     <strong><span style="color: #5b96e3;">Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction</span></strong><br>
     <strong>Xudong Zhang</strong>, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang<sup>*</sup>, Xun Wang<sup>*</sup><br>
@@ -69,7 +69,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/b2b3ff86-6a59-4fa8-8a9f-1fcfee50d697" alt="image" style="width: 200px; margin-right: 2px;">
+  <img src="https://github.com/user-attachments/assets/b2b3ff86-6a59-4fa8-8a9f-1fcfee50d697" alt="image" style="width: 200px; margin-right: 20px;">
   <div>
     <strong><span style="color: #5b96e3;">DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions</span></strong><br>
     Tao Song<sup>*</sup>, **Xudong Zhang**, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang<br>
@@ -98,12 +98,6 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 theory and generate local chemical sub-structure semantic feature using transformer for both drug and protein.
   </div>
 </div>
-
-
-**DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions**  
-Tao Song<sup>*</sup>, **Xudong Zhang**, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang  
-Methods, 2022  
-[[Link]](https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub) [[PDF]](files/deepfusion.pdf) [[Code]](https://github.com/IsXudongZhang/DeepFusion)
 
 **TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2**  
 Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng  
