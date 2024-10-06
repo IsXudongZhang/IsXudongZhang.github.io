@@ -66,7 +66,10 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     </a>
     
     <br>
+    
+    <span style="font-size: 14px;">
     In this paper, we propose Molormer, a method based on a lightweight attention mechanism for DDIs prediction. Molormer takes the two-dimension (2D) structures of drugs as input and encodes the molecular graph with spatial information.
+    </span>
   </div>
 </div>
 
@@ -98,8 +101,10 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     </a>
     
     <br>
+    <span style="font-size: 14px;">
     Predicting drug-target interactions (DTIs) is essential for both drug discovery and drug repositioning. We generate global structural similarity feature based on similarity 
 theory and generate local chemical sub-structure semantic feature using transformer for both drug and protein.
+    </span>
   </div>
 </div>
 
@@ -130,15 +135,44 @@ theory and generate local chemical sub-structure semantic feature using transfor
     </a>
     
     <br>
+    <span style="font-size: 14px;">
     We introduce TransFusionNet, which consists of a semantic feature extraction module, a local spatial feature extraction module, an edge feature extraction module, and a multi-scale feature fusion module to achieve fine-grained segmentation of liver tumors and vessels.
+    </span>
   </div>
 </div>
 
 
-**TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2**  
-Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng  
-IEEE Journal of Biomedical and Health Informatics (JBHI), 2022  
-[[Link]](https://ieeexplore.ieee.org/document/9893911) [[PDF]](files/TransFusionNet.pdf) 
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/d17e3905-4520-4de7-b4ef-c01412273c5a" alt="image" style="width: 200px; margin-right: 20px;">
+  <div>
+    <strong><span style="color: #5b96e3;">AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction</span></strong><br>
+    Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón<br>
+    Briefings in Bioinformatics (BIB), 2021   <br>
+    
+    <a href="https://doi.org/10.1093/bib/bbab545" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        Paper
+      </button>
+    </a>
+
+    <a href="files/AMDE.pdf" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        PDF
+      </button>
+    </a>
+    
+    <a href="https://github.com/wan-YingZ/AMDE-master" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        Code
+      </button>
+    </a>
+    
+    <br>
+    <span style="font-size: 14px;">
+    We introduce TransFusionNet, which consists of a semantic feature extraction module, a local spatial feature extraction module, an edge feature extraction module, and a multi-scale feature fusion module to achieve fine-grained segmentation of liver tumors and vessels.
+    </span>
+  </div>
+</div>
 
 **AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction**  
 Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón  
