@@ -49,19 +49,19 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     Briefings in Bioinformatics (BIB), 2022 <br>
     
     <a href="https://doi.org/10.1093/bib/bbac296" style="text-decoration: none;">
-      <button style="background-color: white; color: grey; padding: 2px 5px; font-size: 12px; border: grey; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         Paper
       </button>
     </a>
 
     <a href="files/molormer.pdf" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         PDF
       </button>
     </a>
     
     <a href="https://github.com/IsXudongZhang/Molormer" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         Code
       </button>
     </a>
@@ -84,19 +84,19 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     Methods, 2022 <br>
     
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         Paper
       </button>
     </a>
 
     <a href="files/deepfusion.pdf" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         PDF
       </button>
     </a>
     
     <a href="https://github.com/IsXudongZhang/DeepFusion" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         Code
       </button>
     </a>
@@ -119,19 +119,19 @@ theory and generate local chemical sub-structure semantic feature using transfor
    IEEE Journal of Biomedical and Health Informatics (JBHI), 2022 <br>
     
     <a href="https://ieeexplore.ieee.org/document/9893911" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px: 14px; border: none; border-radius: 5px; cursor: pointer;">
         Paper
       </button>
     </a>
 
     <a href="files/TransFusionNet.pdf" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         PDF
       </button>
     </a>
     
     <a href="https://github.com/menggerSherry/Trans_Fusion_Net" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         Code
       </button>
     </a>
@@ -153,19 +153,19 @@ theory and generate local chemical sub-structure semantic feature using transfor
     Briefings in Bioinformatics (BIB), 2021   <br>
     
     <a href="https://doi.org/10.1093/bib/bbab545" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         Paper
       </button>
     </a>
 
     <a href="files/AMDE.pdf" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         PDF
       </button>
     </a>
     
-    <a href="https://github.com/wan-YingZ/AMDE-master" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+    <a href="https://github.com/wan-Ying-Z/AMDE-master" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         Code
       </button>
     </a>
