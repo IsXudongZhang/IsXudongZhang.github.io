@@ -42,7 +42,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/e07cdd1d-ed6c-42fb-9f96-a99dda4a56cc" alt="image" style="width: 220px; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/e07cdd1d-ed6c-42fb-9f96-a99dda4a56cc" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction</span></strong><br>
     <strong>Xudong Zhang</strong>, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang<sup>*</sup>, Xun Wang<sup>*</sup><br>
@@ -77,7 +77,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/b2b3ff86-6a59-4fa8-8a9f-1fcfee50d697" alt="image" style="width: 220px; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/b2b3ff86-6a59-4fa8-8a9f-1fcfee50d697" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions</span></strong><br>
     Tao Song<sup>*</sup>, **Xudong Zhang**, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang<br>
@@ -112,7 +112,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/d17e3905-4520-4de7-b4ef-c01412273c5a" alt="image" style="width: 220px; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/d17e3905-4520-4de7-b4ef-c01412273c5a" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2</span></strong><br>
     Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng<br>
@@ -146,7 +146,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/129e7cf0-e361-4698-ab10-438399e31df1" alt="image" style="width: 220px; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/129e7cf0-e361-4698-ab10-438399e31df1" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction</span></strong><br>
     Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón<br>
