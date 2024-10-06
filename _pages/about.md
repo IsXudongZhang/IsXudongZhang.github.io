@@ -108,6 +108,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
   </div>
 </div>
 
+<br>
 
 <div style="display: flex; align-items: center;">
   <img src="https://github.com/user-attachments/assets/d17e3905-4520-4de7-b4ef-c01412273c5a" alt="image" style="width: 220px; margin-right: 20px;">
@@ -141,6 +142,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
   </div>
 </div>
 
+<br>
 
 <div style="display: flex; align-items: center;">
   <img src="https://github.com/user-attachments/assets/129e7cf0-e361-4698-ab10-438399e31df1" alt="image" style="width: 220px; margin-right: 20px;">
@@ -174,11 +176,14 @@ theory and generate local chemical sub-structure semantic feature using transfor
   </div>
 </div>
 
+<br>
 
 &#x1F3C6; Honors and Awards
 ======
 * **2023.04:** Outstanding Graduate of Shandong Province
 * **2022.12:** National scholarship for Postgraduates
+
+<br>
 
 &#x1F30F; Academic Service
 ======
