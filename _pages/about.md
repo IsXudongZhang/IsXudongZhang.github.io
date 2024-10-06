@@ -44,10 +44,23 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     Briefings in Bioinformatics (BIB), 2022 <br>
     
     <a href="https://doi.org/10.1093/bib/bbac296" style="text-decoration: none;">
-      <button style="background-color: #9e64bb; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
         Paper
       </button>
     </a>
+
+    <a href="files/molormer.pdf" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        PDF
+      </button>
+    </a>
+    
+    <a href="[https://doi.org/10.1093/bib/bbac296](https://github.com/IsXudongZhang/Molormer)" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        Code
+      </button>
+    </a>
+    
     <br>
     In this paper, we propose Molormer, a method based on a lightweight attention mechanism for DDIs prediction. Molormer takes the two-dimension (2D) structures of drugs as input and encodes the molecular graph with spatial information.
   </div>
