@@ -99,10 +99,43 @@ theory and generate local chemical sub-structure semantic feature using transfor
   </div>
 </div>
 
+
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/d17e3905-4520-4de7-b4ef-c01412273c5a" alt="image" style="width: 200px; margin-right: 20px;">
+  <div>
+    <strong><span style="color: #5b96e3;">TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2</span></strong><br>
+    Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng<br>
+   IEEE Journal of Biomedical and Health Informatics (JBHI), 2022 <br>
+    
+    <a href="https://ieeexplore.ieee.org/document/9893911" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        Paper
+      </button>
+    </a>
+
+    <a href="files/TransFusionNet.pdf" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        PDF
+      </button>
+    </a>
+    
+    <a href="https://github.com/menggerSherry/Trans_Fusion_Net" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        Code
+      </button>
+    </a>
+    
+    <br>
+    We introduce TransFusionNet, which consists of a semantic feature extraction module, a local spatial feature extraction module, an edge feature extraction module, and a
+multi-scale feature fusion module to achieve fine-grained segmentation of liver tumors and vessels.
+  </div>
+</div>
+
+
 **TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2**  
 Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng  
 IEEE Journal of Biomedical and Health Informatics (JBHI), 2022  
-[[Link]](https://ieeexplore.ieee.org/document/9893911) [[PDF]](files/jbi.pdf) 
+[[Link]](https://ieeexplore.ieee.org/document/9893911) [[PDF]](files/TransFusionNet.pdf) 
 
 **AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction**  
 Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón  
