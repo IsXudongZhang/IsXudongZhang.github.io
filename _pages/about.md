@@ -176,14 +176,11 @@ theory and generate local chemical sub-structure semantic feature using transfor
   </div>
 </div>
 
-<br>
-
 &#x1F3C6; Honors and Awards
 ======
 * **2023.04:** Outstanding Graduate of Shandong Province
 * **2022.12:** National scholarship for Postgraduates
 
-<br>
 
 &#x1F30F; Academic Service
 ======
