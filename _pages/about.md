@@ -55,7 +55,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
       </button>
     </a>
     
-    <a href="[https://doi.org/10.1093/bib/bbac296](IsXudongZhang/Molormer)" style="text-decoration: none;">
+    <a href="https://github.com/IsXudongZhang/Molormer" style="text-decoration: none;">
       <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
         Code
       </button>
@@ -66,12 +66,39 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
   </div>
 </div>
 
+<br>
 
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/b2b3ff86-6a59-4fa8-8a9f-1fcfee50d697" alt="image" style="width: 200px; margin-right: 2px;">
+  <div>
+    <strong><span style="color: #5b96e3;">DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions</span></strong><br>
+    Tao Song<sup>*</sup>, **Xudong Zhang**, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang<br>
+    Methods, 2022 <br>
+    
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        Paper
+      </button>
+    </a>
 
-**Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction**  
-**Xudong Zhang**, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang<sup>*</sup>, Xun Wang<sup>*</sup>  
-Briefings in Bioinformatics (BIB), 2022  
-[[Link]](https://doi.org/10.1093/bib/bbac296) [[PDF]](files/molormer.pdf) [[Code]](https://github.com/IsXudongZhang/Molormer)
+    <a href="files/deepfusion.pdf" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        PDF
+      </button>
+    </a>
+    
+    <a href="https://github.com/IsXudongZhang/DeepFusion" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
+        Code
+      </button>
+    </a>
+    
+    <br>
+    Predicting drug-target interactions (DTIs) is essential for both drug discovery and drug repositioning. We generate global structural similarity feature based on similarity 
+theory and generate local chemical sub-structure semantic feature using transformer for both drug and protein.
+  </div>
+</div>
+
 
 **DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions**  
 Tao Song<sup>*</sup>, **Xudong Zhang**, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang  
