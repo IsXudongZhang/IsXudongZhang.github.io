@@ -55,7 +55,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
       </button>
     </a>
     
-    <a href="[https://doi.org/10.1093/bib/bbac296](https://github.com/IsXudongZhang/Molormer)" style="text-decoration: none;">
+    <a href="[https://doi.org/10.1093/bib/bbac296](IsXudongZhang/Molormer)" style="text-decoration: none;">
       <button style="background-color: #c19fd1; color: white; padding: 4px 7px; font-size: 14px; border: none; border-radius: 5px; cursor: pointer;">
         Code
       </button>
