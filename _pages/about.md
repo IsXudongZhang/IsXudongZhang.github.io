@@ -48,8 +48,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
       Paper
     </button>
     </a>
-    
-     [[PDF]](files/molormer.pdf) [[Code]](https://github.com/IsXudongZhang/Molormer)<br>
+    <br>
      In this paper, we propose Molormer, a method based on a lightweight attention mechanism for DDIs prediction. Molormer takes the two-dimension (2D) structures of drugs as input and encodes the molecular graph with spatial information.
   </div>
 </div>
