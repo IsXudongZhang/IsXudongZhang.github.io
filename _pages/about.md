@@ -34,6 +34,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
   </div>
 </div>
 
+<br>
 
 <div style="display: flex; align-items: center;">
   <img src="https://github.com/user-attachments/assets/e07cdd1d-ed6c-42fb-9f96-a99dda4a56cc" alt="image" style="width: 200px; margin-right: 2px;">
@@ -41,7 +42,14 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     <strong><span style="color: #5b96e3;">Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction</span></strong><br>
     <strong>Xudong Zhang</strong>, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang<sup>*</sup>, Xun Wang<sup>*</sup><br>
     Briefings in Bioinformatics (BIB), 2022 <br>
-    [[Link]](https://doi.org/10.1093/bib/bbac296) [[PDF]](files/molormer.pdf) [[Code]](https://github.com/IsXudongZhang/Molormer)<br>
+    
+    <a href="[https://example.com](https://doi.org/10.1093/bib/bbac296)" style="text-decoration: none;">
+    <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+    </a>
+    
+     [[PDF]](files/molormer.pdf) [[Code]](https://github.com/IsXudongZhang/Molormer)<br>
      In this paper, we propose Molormer, a method based on a lightweight attention mechanism for DDIs prediction. Molormer takes the two-dimension (2D) structures of drugs as input and encodes the molecular graph with spatial information.
   </div>
 </div>
