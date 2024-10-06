@@ -49,7 +49,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     Briefings in Bioinformatics (BIB), 2022 <br>
     
     <a href="https://doi.org/10.1093/bib/bbac296" style="text-decoration: none;">
-      <button style="background-color: white; color: grey; padding: 2px 5px; font-size: 12px; border: grey; border-radius: 1px; cursor: pointer;">
+      <button style="background-color: white; color: grey; padding: 2px 5px; font-size: 12px; border: grey; border-radius: 5px; cursor: pointer;">
         Paper
       </button>
     </a>
