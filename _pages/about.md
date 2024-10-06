@@ -169,16 +169,10 @@ theory and generate local chemical sub-structure semantic feature using transfor
     
     <br>
     <span style="font-size: 14px;">
-    We introduce TransFusionNet, which consists of a semantic feature extraction module, a local spatial feature extraction module, an edge feature extraction module, and a multi-scale feature fusion module to achieve fine-grained segmentation of liver tumors and vessels.
+    The properties of the drug may be altered by the combination,which may cause unexpected drug–drug interactions (DDIs). In this work, we propose a novel attention-mechanism-based multidimensional feature encoder for DDIs prediction, namely attention-based multidimensional feature encoder (AMDE).
     </span>
   </div>
 </div>
-
-**AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction**  
-Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón  
-Briefings in Bioinformatics (BIB), 2021  
-[[Link]](https://doi.org/10.1093/bib/bbab545) [[PDF]](files/AMDE.pdf) [[Code]](https://github.com/wan-YingZ/AMDE-master)  
-
 
 
 &#x1F3C6; Honors and Awards
