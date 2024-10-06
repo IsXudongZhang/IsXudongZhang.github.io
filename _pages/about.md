@@ -126,8 +126,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
     </a>
     
     <br>
-    We introduce TransFusionNet, which consists of a semantic feature extraction module, a local spatial feature extraction module, an edge feature extraction module, and a
-multi-scale feature fusion module to achieve fine-grained segmentation of liver tumors and vessels.
+    We introduce TransFusionNet, which consists of a semantic feature extraction module, a local spatial feature extraction module, an edge feature extraction module, and a multi-scale feature fusion module to achieve fine-grained segmentation of liver tumors and vessels.
   </div>
 </div>
 
