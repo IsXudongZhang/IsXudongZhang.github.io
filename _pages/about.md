@@ -25,11 +25,12 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 &#128221; Publications
 ======
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/b44453ed-731f-413c-b851-21e365086668" alt="image" style="width: 150px; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/b44453ed-731f-413c-b851-21e365086668" alt="image" style="width: 30px; margin-right: 20px;">
   <div>
     <strong>Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</strong><br>
     <strong>Xudong Zhang</strong>, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang<sup>*</sup>, Guang Chen<sup>*</sup>, Alois Knoll, Shaorong Gao<br>
     Briefings in Bioinformatics (BIB), 2024
+    
         Designing high-affinity molecules for protein targets (especially novel protein families) is a crucial yet challenging task in drug discovery. Recently, there has been tremendous progress in structure-based 3D molecular generative models that incorporate structural information of protein pockets. However, the capacity for molecular representation learning and the generalization for capturing interaction patterns need substantial further developments. Here, we propose AMG, a framework that leverages deep reinforcement learning as a pocket-ligand interaction agent to gradually steer fragment-based 3D molecular generation targeting protein pockets. AMG is trained using a two-stage strategy to capture interaction features and explicitly optimize the interaction agent. The framework also introduces a pair of separate encoders for pockets and ligands, coupled with a dedicated pre-training strategy. This enables AMG to enhance its generalization ability by leveraging a vast repository of undocked pockets and molecules, thus mitigating the constraints posed by the limited quantity and quality of available datasets. Extensive evaluations demonstrate that AMG significantly outperforms five state-of-the-art baselines in affinity performance while maintaining proper drug-likeness properties. Furthermore, visual analysis confirms the superiority of AMG at capturing 3D molecular geometrical features and interaction patterns within pocket-ligand complexes, indicating its considerable promise for various structure-based downstream tasks.
     
   </div>
