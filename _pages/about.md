@@ -30,7 +30,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     <strong>Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</strong><br>
     <strong>Xudong Zhang</strong>, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang<sup>*</sup>, Guang Chen<sup>*</sup>, Alois Knoll, Shaorong Gao<br>
     Briefings in Bioinformatics (BIB), 2024 <br>
-     In this paper we propose AMG, a framework that leverages deep reinforcement learning as a pocket-ligand interaction agent to gradually steer fragment-based 3D molecular generation targeting protein pockets. AMG is trained using a two-stage strategy to capture interaction features and explicitly optimize the interaction agent. The framework also introduces a pair of separate encoders for pockets and ligands, coupled with a dedicated pre-training strategy. This enables AMG to enhance its generalization ability by leveraging a vast repository of undocked pockets and molecules, thus mitigating the constraints posed by the limited quantity and quality of available datasets.
+     Designing high-affinity molecules for protein targets (especially novel protein families) is a crucial yet challenging task in drug discovery. In this paper, we propose AMG that leverages deep reinforcement learning as a pocket-ligand interaction agent to gradually steer fragment-based 3D molecular generation targeting protein pockets.
     
   </div>
 </div>
