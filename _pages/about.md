@@ -50,7 +50,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     
     <a href="https://doi.org/10.1093/bib/bbac296" style="text-decoration: none;">
       <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
-        Paper
+        Journal
       </button>
     </a>
 
@@ -85,7 +85,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub" style="text-decoration: none;">
       <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
-        Paper
+        Journal
       </button>
     </a>
 
@@ -119,8 +119,8 @@ theory and generate local chemical sub-structure semantic feature using transfor
    IEEE Journal of Biomedical and Health Informatics (JBHI), 2022 <br>
     
     <a href="https://ieeexplore.ieee.org/document/9893911" style="text-decoration: none;">
-      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px: 14px; border: none; border-radius: 5px; cursor: pointer;">
-        Paper
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
+        Journal
       </button>
     </a>
 
@@ -154,7 +154,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
     
     <a href="https://doi.org/10.1093/bib/bbab545" style="text-decoration: none;">
       <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
-        Paper
+        Journal
       </button>
     </a>
 
@@ -172,7 +172,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
     
     <br>
     <span style="font-size: 14px;">
-    The properties of the drug may be altered by the combination,which may cause unexpected drug–drug interactions (DDIs). In this work, we propose a novel attention-mechanism-based multidimensional feature encoder for DDIs prediction, namely attention-based multidimensional feature encoder (AMDE).
+    The properties of the drug may be altered by the combination,which may cause unexpected drug–drug interactions (DDIs). In this work, we propose a novel attention-mechanism-based multidimensional feature encoder for DDIs prediction, namely attention-based multidimensional feature encoder.
     </span>
   </div>
 </div>
