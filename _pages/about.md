@@ -143,7 +143,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
 
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/d17e3905-4520-4de7-b4ef-c01412273c5a" alt="image" style="width: 200px; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/4b5ff14d-b64b-4612-83f0-4194d1cb89ea" alt="image" style="width: 200px; margin-right: 20px;">
   <div>
     <strong><span style="color: #5b96e3;">AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction</span></strong><br>
     Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón<br>
