@@ -35,7 +35,9 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     </span>
   </div>
 
-  <img src="https://github.com/user-attachments/assets/b44453ed-731f-413c-b851-21e365086668" alt="image" style="width: 400px; margin-top: 20px;">
+  <div style="width: 80%; text-align: center; margin-top: 20px;">
+    <img src="https://github.com/user-attachments/assets/b44453ed-731f-413c-b851-21e365086668" alt="image" style="width: 50%; height: auto;">
+  </div>
 </div>
 
 
