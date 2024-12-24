@@ -42,7 +42,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/e07cdd1d-ed6c-42fb-9f96-a99dda4a56cc" alt="image" style="width: 30%; margin-right: 1%;">
+  <img src="https://github.com/user-attachments/assets/e07cdd1d-ed6c-42fb-9f96-a99dda4a56cc" alt="image" style="width: 10%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction</span></strong><br>
     <strong>Xudong Zhang</strong>, Gan Wang, Xiangyu Meng, Shuang Wang, Ying Zhang, Alfonso Rodriguez-Paton, Jianmin Wang<sup>*</sup>, Xun Wang<sup>*</sup><br>
