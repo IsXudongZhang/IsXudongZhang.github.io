@@ -25,8 +25,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 
 &#128221; Publications
 ======
-
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="https://github.com/ispc-lab/AMG/blob/main/assets/overview.png" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</span></strong><br>
@@ -34,10 +33,8 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     Briefings in Bioinformatics (BIB), 2024 <br>
   </div>
 </div>
-<br>
 
-
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/e07cdd1d-ed6c-42fb-9f96-a99dda4a56cc" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction</span></strong><br>
@@ -70,13 +67,11 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
   </div>
 </div>
 
-<br>
-
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/b2b3ff86-6a59-4fa8-8a9f-1fcfee50d697" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions</span></strong><br>
-    Tao Song<sup>*</sup>, **Xudong Zhang**, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang<br>
+    Tao Song<sup>*</sup>, <strong>Xudong Zhang</strong>, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang<br>
     Methods, 2022 <br>
     
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub" style="text-decoration: none;">
@@ -99,20 +94,17 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     
     <br>
     <span style="font-size: 14px;">
-    Predicting drug-target interactions (DTIs) is essential for both drug discovery and drug repositioning. We generate global structural similarity feature based on similarity 
-theory and generate local chemical sub-structure semantic feature using transformer for both drug and protein.
+    Predicting drug-target interactions (DTIs) is essential for both drug discovery and drug repositioning. We generate global structural similarity feature based on similarity theory and generate local chemical sub-structure semantic feature using transformer for both drug and protein.
     </span>
   </div>
 </div>
 
-<br>
-
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/d17e3905-4520-4de7-b4ef-c01412273c5a" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2</span></strong><br>
-    Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng<br>
-   IEEE Journal of Biomedical and Health Informatics (JBHI), 2022 <br>
+    Xun Wang, <strong>Xudong Zhang</strong>, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng<br>
+    IEEE Journal of Biomedical and Health Informatics (JBHI), 2022 <br>
     
     <a href="https://ieeexplore.ieee.org/document/9893911" style="text-decoration: none;">
       <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
@@ -134,19 +126,17 @@ theory and generate local chemical sub-structure semantic feature using transfor
     
     <br>
     <span style="font-size: 14px;">
-    We introduce TransFusionNet, which consists of a semantic feature extraction module, a local spatial feature extraction module, an edge feature extraction module, and a multi-scale feature fusion module to achieve fine-grained segmentation of liver tumors and vessels.
+    We introduce TransFusionNet, which consists of a semantic feature extraction module, a local spatial feature extraction module, an edge feature extraction module, and a multi-scale feature fusion module to achieve fine-grained segmentation of liver tumors and vessels.
     </span>
   </div>
 </div>
 
-<br>
-
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/129e7cf0-e361-4698-ab10-438399e31df1" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction</span></strong><br>
-    Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón<br>
-    Briefings in Bioinformatics (BIB), 2021   <br>
+    Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, <strong>Xudong Zhang</strong>, Xun Wang, Alfonso Rodriguez-Patón<br>
+    Briefings in Bioinformatics (BIB), 2021 <br>
     
     <a href="https://doi.org/10.1093/bib/bbab545" style="text-decoration: none;">
       <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
@@ -168,12 +158,11 @@ theory and generate local chemical sub-structure semantic feature using transfor
     
     <br>
     <span style="font-size: 14px;">
-    The properties of the drug may be altered by the combination,which may cause unexpected drug–drug interactions (DDIs). In this work, we propose a novel attention-mechanism-based multidimensional feature encoder for DDIs prediction, namely attention-based multidimensional feature encoder.
+    The properties of the drug may be altered by the combination, which may cause unexpected drug–drug interactions (DDIs). In this work, we propose a novel attention-mechanism-based multidimensional feature encoder for DDIs prediction, namely attention-based multidimensional feature encoder.
     </span>
   </div>
 </div>
 
-<br>
 
 &#x1F3C6; Honors and Awards
 ======
