@@ -33,11 +33,6 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
     <strong>Xudong Zhang</strong>, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang, Guang Chen, Alois Knoll, Shaorong Gao<br>
     Briefings in Bioinformatics (BIB), 2024 <br>
 
-    
-  </div>
-</div>
-
-
 <br>
 
 
