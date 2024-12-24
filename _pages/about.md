@@ -29,8 +29,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 ======
 
 <div style="display: flex; align-items: center;">
-  <img src="<img width="592" alt="image" src="https://github.com/user-attachments/assets/c29c0b49-8a73-469b-ac30-d26881a2753b" />
-" alt="image" style="width: 30%; margin-right: 1%;">
+  <img src="https://github.com/user-attachments/assets/c29c0b49-8a73-469b-ac30-d26881a2753b" alt="image" style="width: 30%; margin-right: 1%;">
   <div>
     <strong><span style="color: #5b96e3;">Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</span></strong><br>
     <strong>Xudong Zhang</strong>, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang, Guang Chen, Alois Knoll, Shaorong Gao<br>
