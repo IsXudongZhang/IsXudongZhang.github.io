@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Xudong Zhang | Homepage"
 title_separator          : "-"
-name                     : &name "Xudong Zhang"
+name                     : &name "Xudong Zhang (张旭东)"
 description              : &description "personal description"
 url                      : https://xudongzhang.cn
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
