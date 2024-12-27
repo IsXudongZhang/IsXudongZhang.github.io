@@ -77,7 +77,7 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 <div style="display: flex; align-items: center;">
   <div>
     <strong><span style="color: #5b96e3;">DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions</span></strong><br>
-    Tao Song<sup>*</sup>, **Xudong Zhang**, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang<br>
+    Tao Song<sup>*</sup>, <strong>Xudong Zhang</strong>, Mao Ding<sup>*</sup>, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang<br>
     Methods, 2022 <br>
     
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub" style="text-decoration: none;">
@@ -111,7 +111,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
 <div style="display: flex; align-items: center;">
   <div>
     <strong><span style="color: #5b96e3;">TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2</span></strong><br>
-    Xun Wang, **Xudong Zhang**, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng<br>
+    Xun Wang, <strong>Xudong Zhang</strong>, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng<br>
    IEEE Journal of Biomedical and Health Informatics (JBHI), 2022 <br>
     
     <a href="https://ieeexplore.ieee.org/document/9893911" style="text-decoration: none;">
@@ -144,7 +144,7 @@ theory and generate local chemical sub-structure semantic feature using transfor
 <div style="display: flex; align-items: center;">
   <div>
     <strong><span style="color: #5b96e3;">AMDE: a novel attention-mechanism-based multidimensional feature encoder for drug-drug interaction prediction</span></strong><br>
-    Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, **Xudong Zhang**, Xun Wang, Alfonso Rodriguez-Patón<br>
+    Shanchen Pang, Ying Zhang, Tao Song<sup>*</sup>, <strong>Xudong Zhang</strong>, Xun Wang, Alfonso Rodriguez-Patón<br>
     Briefings in Bioinformatics (BIB), 2021   <br>
     
     <a href="https://doi.org/10.1093/bib/bbab545" style="text-decoration: none;">
