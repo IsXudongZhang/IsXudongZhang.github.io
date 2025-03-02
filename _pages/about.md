@@ -13,6 +13,8 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 &#x1F4E3; News
 ======
 
+&#x1F389; **2025.02:** Our work (RCP-Bench) collaborative perceptionis accepted by CVPR2025!
+
 &#x1F389; **2024.12:** We won the championship in [The Second Global AI Drug Development Algorithm Competition](https://aistudio.baidu.com/competition/detail/1214/0/introduction)!
 
 &#x1F389; **2024.11:** Our work (AMG) on 3D structure-based molecular generation is accepted by Briefings in Bioinformatics!
