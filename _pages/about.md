@@ -184,4 +184,4 @@ theory and generate local chemical sub-structure semantic feature using transfor
 
 &#x1F30F; Academic Service
 ======
-Reviewer: Briefings in Bioinformatics, Journal of Cheminformatics, BioData Mining, BMC Bioinformatics.
+Reviewer: Briefings in Bioinformatics, JBHI, Journal of Cheminformatics, BioData Mining, BMC Bioinformatics.
