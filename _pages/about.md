@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Hey there! I’m currently a second-year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. [Guang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=kBhIyv4AAAAJ), the head of the [Robotics & Embodied AI Lab](https://ispc-group.github.io/). My research focuses on **AI for drug discovery**, with specific interests in (1) structure-based molecular generation, (2) generative models, and (3) reinforcement learning.
+Hey there! I’m currently a third-year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. [Guang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=kBhIyv4AAAAJ), the head of the [Robotics & Embodied AI Lab](https://ispc-group.github.io/). My research focuses on **AI for drug discovery**, with specific interests in (1) structure-based molecular generation, (2) generative models, and (3) reinforcement learning.
 
 &#x1F4E3; News
 ======
 
 &#x1F389; **2025.02:** Our work (RCP-Bench) on collaborative perception is accepted by CVPR2025!
 
-&#x1F389; **2024.12:** We won the championship in [The Second Global AI Drug Development Algorithm Competition](https://aistudio.baidu.com/competition/detail/1214/0/introduction)!
+&#x1F389; **2024.12:** We won the championship (1/226) in [The Second Global AI Drug Development Algorithm Competition](https://aistudio.baidu.com/competition/detail/1214/0/introduction)!
 
 &#x1F389; **2024.11:** Our work (AMG) on 3D structure-based molecular generation is accepted by Briefings in Bioinformatics!
 
@@ -30,14 +30,39 @@ Hey there! I’m currently a second-year Ph.D. student in Computer Science and T
 &#128221; Publications
 ======
 
+
 <div style="display: flex; align-items: center;">
   <div>
-    <strong><span style="color: #5b96e3;">Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</span></strong><br>
-    <strong>Xudong Zhang</strong>, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Yanping Zhang, Guang Chen, Alois Knoll, Shaorong Gao<br>
-    Briefings in Bioinformatics (BIB), 2024 <br>
+    <strong><span style="color: #5b96e3;"Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</span></strong><br>
+    <strong>Xudong Zhang</strong>, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Alois Knoll, Guang Chen<sup>*</sup>, Shaorong Gao<sup>*</sup>, Yanping Zhang<sup>*</sup><br>
+    Briefings in Bioinformatics (BIB), 2025 <br>
+    
+    <a href="https://doi.org/10.1093/bib/bbae531" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
+        Journal
+      </button>
+    </a>
+
+    <a href="files/AMG.pdf" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
+        PDF
+      </button>
+    </a>
+    
+    <a href="https://github.com/ispc-lab/AMG" style="text-decoration: none;">
+      <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
+        Code
+      </button>
+    </a>
+    
+    <br>
+    
+    <span style="font-size: 14px;">
+    In this paper, we propose AMG, a framework that leverages deep reinforcementlearning as a pocket–ligand interaction agent to gradually steer fragment-based 3D molecular generation targeting protein pockets.AMG is trained using a two-stage strategy to capture interaction features and explicitly optimize the IA. The framework also introducesa pair of separate encoders for pockets and ligands, coupled with a dedicated pre-training strategy. This enables AMG to enhance itsgeneralization ability by leveraging a vast repository of undocked pockets and molecules, thus mitigating the constraints posed by the
+limited quantity and quality of available datasets.
+    </span>
   </div>
 </div>
-
 
 <br>
 
