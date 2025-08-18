@@ -33,11 +33,11 @@ Hey there! I’m currently a third-year Ph.D. student in Computer Science and Te
 
 <div style="display: flex; align-items: center;">
   <div>
-    <strong><span style="color: #5b96e3;"Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</span></strong><br>
+    <strong><span style="color: #5b96e3;>"Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</span></strong><br>
     <strong>Xudong Zhang</strong>, Jing Hou, Sanqing Qu, Fan Lu, Zhixin Tian, Alois Knoll, Guang Chen<sup>*</sup>, Shaorong Gao<sup>*</sup>, Yanping Zhang<sup>*</sup><br>
     Briefings in Bioinformatics (BIB), 2025 <br>
     
-    <a href="https://doi.org/10.1093/bib/bbae531" style="text-decoration: none;">
+    <a href="https://academic.oup.com/bib/article/26/4/bbae531/8222510" style="text-decoration: none;">
       <button style="background-color: #c19fd1; color: white; padding: 2px 5px; font-size: 12px; border: none; border-radius: 5px; cursor: pointer;">
         Journal
       </button>
