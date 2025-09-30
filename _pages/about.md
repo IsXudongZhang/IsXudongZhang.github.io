@@ -13,6 +13,8 @@ Hey there! I’m currently a third-year Ph.D. student in Computer Science and Te
 &#x1F4E3; News
 ======
 
+&#x1F389; **2025.08:** Our work (SWITCH) on single cell is accepted by NCS!
+
 &#x1F389; **2025.02:** Our work (RCP-Bench) on collaborative perception is accepted by CVPR2025!
 
 &#x1F389; **2024.12:** We won the championship (1/226) in [The Second Global AI Drug Development Algorithm Competition](https://aistudio.baidu.com/competition/detail/1214/0/introduction)!
