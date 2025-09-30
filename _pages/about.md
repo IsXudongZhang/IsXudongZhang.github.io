@@ -15,7 +15,7 @@ Hey there! I’m currently a third-year Ph.D. student in Computer Science and Te
 
 &#x1F389; **2025.08:** Our work (SWITCH) on spatial multi-omics is accepted by Nature Computational Science (NCS)!
 
-&#x1F389; **2025.02:** Our work (RCP-Bench) on collaborative perception is accepted by CVPR2025!
+&#x1F389; **2025.02:** Our work (RCP-Bench) on collaborative perception is accepted by CVPR 2025!
 
 &#x1F389; **2024.12:** We won the championship (1/226) in [The Second Global AI Drug Development Algorithm Competition](https://aistudio.baidu.com/competition/detail/1214/0/introduction)!
 
