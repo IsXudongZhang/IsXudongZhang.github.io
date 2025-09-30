@@ -13,7 +13,7 @@ Hey there! I’m currently a third-year Ph.D. student in Computer Science and Te
 &#x1F4E3; News
 ======
 
-&#x1F389; **2025.08:** Our work (SWITCH) on single cell is accepted by NCS!
+&#x1F389; **2025.08:** Our work (SWITCH) on spatial multi-omics is accepted by Nature Computational Science (NCS)!
 
 &#x1F389; **2025.02:** Our work (RCP-Bench) on collaborative perception is accepted by CVPR2025!
 
