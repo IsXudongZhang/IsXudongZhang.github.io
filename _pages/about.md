@@ -11,7 +11,7 @@ redirect_from:
 AI for Drug Discovery, Science for Better Lives
 ======
 
-Hey there! I’m currently a third-year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. [Guang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=kBhIyv4AAAAJ), the head of the [Generalist Embodied AI Lab](https://www.embodiment.ai/). My research focuses on **AI for drug discovery**, with specific interests in (1) structure-based molecular generation, (2) generative models, and (3) reinforcement learning.
+Hey there! I’m currently a third-year Ph.D. student in Computer Science and Technology at Tongji University, supervised by Prof. [Guang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=kBhIyv4AAAAJ), the head of the [Generalist Embodied AI Lab](https://www.embodiment.ai/). My research focuses on **AI4Science**, with specific interests in (1) drug discovery, (2) generative models, and (3) reinforcement learning.
 
 &#x1F4E3; News
 ======
