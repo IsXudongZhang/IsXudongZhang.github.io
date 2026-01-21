@@ -1,0 +1,700 @@
+/* Academic Homepage Styles */
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --text-light: #666;
+    --bg-color: #ffffff;
+    --bg-light: #f8f9fa;
+    --border-color: #e0e0e0;
+    --link-color: #2980b9;
+    --link-hover: #1f5f8b;
+    --max-width: 1000px;
+    --spacing: 2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.7;
+    color: var(--text-color);
+    background-color: var(--bg-light);
+    font-size: 16px;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 3rem var(--spacing);
+    text-align: center;
+    border-bottom: 4px solid var(--accent-color);
+}
+
+.header-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.avatar-wrapper {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-container {
+    flex-shrink: 0;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.avatar:hover {
+    transform: scale(1.05);
+}
+
+.avatar-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.main-title {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    min-width: 300px;
+}
+
+.tagline {
+    font-size: 1.3rem;
+    font-weight: 300;
+    opacity: 0.95;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.header-image {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drug-discovery-img {
+    max-width: 100%;
+    max-height: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-link:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px) scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.github-icon {
+    width: 18px;
+    height: 18px;
+    fill: white;
+}
+
+.social-text {
+    display: none;
+}
+
+/* Main Content */
+.main-content {
+    padding: var(--spacing);
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section:last-of-type {
+    border-bottom: none;
+}
+
+.section-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* About Section */
+.about-content {
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+}
+
+/* News Section */
+.news-list {
+    list-style: none;
+}
+
+.news-item {
+    padding: 0.5rem 0;
+    padding-left: 0;
+    margin-bottom: 0.3rem;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.news-item:hover {
+    background-color: var(--bg-light);
+    padding-left: 0.5rem;
+}
+
+.news-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+}
+
+.news-date {
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-right: 0.5rem;
+    min-width: 80px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.news-content {
+    color: var(--text-color);
+    flex: 1;
+}
+
+/* Publications Section */
+.publication {
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.publication:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.publication-content {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.publication-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.publication-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+}
+
+.publication-authors {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.publication-authors strong {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.publication-venue {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    font-style: italic;
+}
+
+.publication-links {
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    background-color: #95a5a6;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    border: 1px solid #95a5a6;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #7f8c8d;
+    color: white;
+    border-color: #7f8c8d;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    background-color: #95a5a6;
+    color: white;
+}
+
+.publication-abstract {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin-bottom: 0;
+    text-align: justify;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 4px;
+}
+
+/* Framework Image Styles */
+.framework-image {
+    flex-shrink: 0;
+    width: 250px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+.framework-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+.image-caption {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Experience Section */
+.experience-list {
+    list-style: none;
+}
+
+.experience-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.experience-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 0.8rem;
+    gap: 1rem;
+}
+
+.experience-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.experience-company {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    font-style: italic;
+}
+
+.experience-details {
+    margin-top: 0.5rem;
+}
+
+.experience-date {
+    font-weight: 600;
+    color: var(--accent-color);
+    font-size: 0.95rem;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.experience-description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin: 0;
+    text-align: justify;
+}
+
+/* Awards Section */
+.awards-list {
+    list-style: none;
+}
+
+.award-item {
+    padding: 0.5rem 0;
+    padding-left: 0;
+    margin-bottom: 0.3rem;
+    transition: background-color 0.3s ease;
+}
+
+.award-item:hover {
+    background-color: var(--bg-light);
+    padding-left: 0.5rem;
+}
+
+.award-date {
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-right: 1rem;
+    min-width: 80px;
+    display: inline-block;
+}
+
+.award-content {
+    color: var(--text-color);
+}
+
+/* Academic Service Section */
+.service-content {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
+/* Links */
+.link {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border-bottom: 1px dotted var(--link-color);
+}
+
+.link:hover {
+    color: var(--link-hover);
+    border-bottom: 1px solid var(--link-hover);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .avatar,
+    .avatar-placeholder {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .avatar-placeholder {
+        font-size: 2.5rem;
+    }
+    
+    .avatar-wrapper {
+        align-items: center;
+    }
+    
+    .main-title {
+        font-size: 1.75rem;
+        margin-top: 0.8rem;
+    }
+    
+    .header-right {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tagline {
+        font-size: 1.1rem;
+    }
+    
+    .drug-discovery-img {
+        max-height: 200px;
+    }
+    
+    .social-links {
+        justify-content: center;
+        gap: 0.8rem;
+    }
+    
+    .social-link {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .social-icon {
+        font-size: 0.9rem;
+    }
+    
+    .github-icon {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .publication-title {
+        font-size: 1.1rem;
+    }
+    
+    .publication-content {
+        flex-direction: column;
+    }
+    
+    .framework-image {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .main-content {
+        padding: 1rem;
+    }
+    
+    .header {
+        padding: 2rem 1rem;
+    }
+    
+    .news-date,
+    .award-date {
+        display: block;
+        margin-bottom: 0.3rem;
+        min-width: auto;
+    }
+    
+    .publication-links {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .experience-item {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .avatar,
+    .avatar-placeholder {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .avatar-placeholder {
+        font-size: 2rem;
+    }
+    
+    .social-links {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.6rem;
+    }
+    
+    .social-link {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .social-icon {
+        font-size: 0.85rem;
+    }
+    
+    .github-icon {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .main-title {
+        font-size: 1.5rem;
+        margin-top: 0.6rem;
+    }
+    
+    .tagline {
+        font-size: 1rem;
+    }
+    
+    .drug-discovery-img {
+        max-height: 150px;
+    }
+    
+    .publication {
+        padding: 1rem;
+    }
+    
+    .publication-title {
+        font-size: 1rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background-color: white;
+    }
+    
+    .container {
+        box-shadow: none;
+    }
+    
+    .header {
+        background: var(--primary-color);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    
+    .btn {
+        border: 1px solid var(--accent-color);
+        background-color: transparent;
+        color: var(--accent-color);
+    }
+    
+    .framework-image {
+        page-break-inside: avoid;
+    }
+}
