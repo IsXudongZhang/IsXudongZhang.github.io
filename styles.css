@@ -11,6 +11,13 @@
     --border-color: #e0e0e0;
     --link-color: #2980b9;
     --link-hover: #1f5f8b;
+    /* Publication-specific colors */
+    --journal-color: #1f5f8b; /* blue */
+    --journal-hover: #153556;
+    --pdf-color: #c0392b; /* red */
+    --pdf-hover: #8c2a20;
+    --code-color: #16a085; /* teal/green */
+    --code-hover: #0f7a63;
     --max-width: 1000px;
     --spacing: 2rem;
 }
@@ -283,6 +290,7 @@ body {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
+    flex-wrap: wrap; /* allow image to wrap below text if space is tight to avoid overflow */
 }
 
 .publication-text {
@@ -318,6 +326,55 @@ body {
     margin-bottom: 0.75rem;
     font-style: italic;
 }
+
+/* Publication meta: keep venue on the left and plain text links on the right */
+.publication-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-links {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+/* Make publication links plain text-like instead of buttons */
+.publication-links .btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    color: var(--link-color);
+    /* solid underline that follows the text color */
+    border-bottom: 2px solid currentColor;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 1;
+}
+
+/* Per-type colors with stronger contrast */
+.publication-links .btn.journal { color: var(--journal-color); border-bottom-color: var(--journal-color); }
+.publication-links .btn.pdf     { color: var(--pdf-color); border-bottom-color: var(--pdf-color); }
+.publication-links .btn.code    { color: var(--code-color); border-bottom-color: var(--code-color); }
+
+.publication-links .btn:hover {
+    opacity: 0.9;
+    transform: none;
+}
+
+/* Hover color tuning per type */
+.publication-links .btn.journal:hover { color: var(--journal-hover); border-bottom-color: var(--journal-hover); }
+.publication-links .btn.pdf:hover     { color: var(--pdf-hover); border-bottom-color: var(--pdf-hover); }
+.publication-links .btn.code:hover    { color: var(--code-hover); border-bottom-color: var(--code-hover); }
+
+/* remove any inserted icons for these links */
+.publication-links .btn::before { content: none !important; }
 
 .publication-links {
     margin-bottom: 0.5rem;
@@ -367,19 +424,30 @@ body {
 /* Framework Image Styles */
 .framework-image {
     flex-shrink: 0;
+    max-width: 280px;
     width: 280px;
     text-align: center;
     padding: 0;
     background-color: transparent;
     border: none;
+    /* enforce a consistent container ratio so images inside scale uniformly */
+    aspect-ratio: 14 / 10; /* ~280x200 */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    flex: 0 0 280px; /* fix base flex-basis so it doesn't grow and cause layout shifts */
+    box-sizing: border-box;
 }
 
 .framework-image img {
-    width: 280px;
-    height: 200px;
+    width: 100%;
+    height: auto; /* avoid forcing height 100% which can create overflow in some cases */
+    max-height: 200px;
     object-fit: contain;
-    border-radius: 4px;
-    margin-bottom: 0.5rem;
+    display: block;
+    margin: 0;
 }
 
 .image-caption {
@@ -590,6 +658,46 @@ body {
         max-height: 200px;
         object-fit: contain;
     }
+
+    /* Tighter cap for very small screens to avoid vertical overflow */
+    .framework-image {
+        aspect-ratio: auto !important;
+        height: auto !important;
+        max-height: 160px;
+        overflow: hidden;
+        padding: 0.2rem;
+        box-sizing: border-box;
+    }
+
+    .framework-image img {
+        width: auto;
+        height: 100%;
+        max-height: 160px;
+        object-fit: contain;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* Prevent vertical overflow on small screens: remove enforced aspect-ratio and cap height */
+    .framework-image {
+        aspect-ratio: auto !important;
+        height: auto !important;
+        max-height: 200px;
+        overflow: hidden;
+        display: block;
+        border-radius: 6px;
+        padding: 0.25rem;
+        box-sizing: border-box;
+    }
+
+    .framework-image img {
+        width: auto;
+        height: 100%;
+        max-height: 200px;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
+    }
     
     .main-content {
         padding: 1rem;
@@ -606,13 +714,55 @@ body {
         min-width: auto;
     }
     
+    /* Publication buttons: show as compact icon-like buttons on mobile */
     .publication-links {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0.6rem;
+        align-items: center;
     }
-    
-    .btn {
-        width: 100%;
-        text-align: center;
+
+    .publication-links .btn {
+        flex: 1 1 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0.55rem 0.75rem;
+        border-radius: 12px;
+        font-size: 0.9rem;
+        width: auto;
+    }
+
+    /* Add visual variants for journal / pdf / code buttons */
+    .publication-links .btn.journal {
+        background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+        border-color: rgba(255,255,255,0.06);
+        color: white;
+    }
+
+    .publication-links .btn.pdf {
+        background: linear-gradient(90deg, #e74c3c, #c0392b);
+        border-color: rgba(0,0,0,0.06);
+        color: white;
+    }
+
+    .publication-links .btn.code {
+        background: linear-gradient(90deg, #27ae60, #16a085);
+        border-color: rgba(0,0,0,0.06);
+        color: white;
+    }
+
+    /* Unicode icon before text for quick visual affordance */
+    .publication-links .btn.journal::before { content: "📖"; }
+    .publication-links .btn.pdf::before     { content: "📄"; }
+    .publication-links .btn.code::before    { content: "💻"; }
+
+    .publication-links .btn::before {
+        display: inline-block;
+        margin-right: 0.35rem;
+        font-size: 1.05rem;
+        line-height: 1;
     }
     
     .experience-header {
