@@ -330,9 +330,10 @@ body {
 /* Publication meta: keep venue on the left and plain text links on the right */
 .publication-meta {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.4rem;
     margin-bottom: 0.5rem;
 }
 
@@ -340,6 +341,7 @@ body {
     display: flex;
     gap: 0.75rem;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Make publication links plain text-like instead of buttons */
@@ -577,191 +579,9 @@ body {
     font-size: 0.9rem;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .profile-section {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-    
-    .avatar,
-    .avatar-placeholder {
-        width: 120px;
-        height: 120px;
-    }
-    
-    .avatar-placeholder {
-        font-size: 2.5rem;
-    }
-    
-    .avatar-wrapper {
-        align-items: center;
-    }
-    
-    .main-title {
-        font-size: 1.75rem;
-        margin-top: 0.8rem;
-    }
-    
-    .header-right {
-        align-items: center;
-        text-align: center;
-    }
-    
-    .tagline {
-        font-size: 1.1rem;
-    }
-    
-    .drug-discovery-img {
-        max-height: 200px;
-    }
-    
-    .social-links {
-        justify-content: center;
-        gap: 0.8rem;
-    }
-    
-    .social-link {
-        width: 32px;
-        height: 32px;
-    }
-    
-    .social-icon {
-        font-size: 0.9rem;
-    }
-    
-    .github-icon {
-        width: 16px;
-        height: 16px;
-    }
-    
-    .section-title {
-        font-size: 1.5rem;
-    }
-    
-    .publication-title {
-        font-size: 1.1rem;
-    }
-    
-    .publication-content {
-        flex-direction: column;
-    }
-    
-    .framework-image {
-        width: 100%;
-        margin-top: 1rem;
-        /* Prevent vertical overflow on small screens */
-        aspect-ratio: auto !important;
-        height: auto !important;
-        max-height: 200px;
-        overflow: hidden;
-        display: block;
-        border-radius: 6px;
-        padding: 0.25rem;
-        box-sizing: border-box;
-    }
-
-    .framework-image img {
-        width: auto;
-        height: 100%;
-        max-height: 200px;
-        object-fit: contain;
-        display: block;
-        margin: 0 auto;
-    }
-    
-    .main-content {
-        padding: 1rem;
-    }
-    
-    .header {
-        padding: 2rem 1rem;
-    }
-    
-    .news-date,
-    .award-date {
-        display: block;
-        margin-bottom: 0.3rem;
-        min-width: auto;
-    }
-    
-    /* Publication links: keep consistent with desktop (plain text links) */
-    .publication-meta {
-        gap: 0.75rem;
-    }
-
-    .publication-links {
-        gap: 0.6rem;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
-
-    .publication-links .btn {
-        font-size: 0.95rem;
-    }
-    
-    .experience-header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .experience-item {
-        padding: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .avatar,
-    .avatar-placeholder {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .avatar-placeholder {
-        font-size: 2rem;
-    }
-    
-    .social-links {
-        flex-direction: row;
-        align-items: center;
-        gap: 0.6rem;
-    }
-    
-    .social-link {
-        width: 30px;
-        height: 30px;
-    }
-    
-    .social-icon {
-        font-size: 0.85rem;
-    }
-    
-    .github-icon {
-        width: 14px;
-        height: 14px;
-    }
-    
-    .main-title {
-        font-size: 1.5rem;
-        margin-top: 0.6rem;
-    }
-    
-    .tagline {
-        font-size: 1rem;
-    }
-    
-    .drug-discovery-img {
-        max-height: 150px;
-    }
-    
-    .publication {
-        padding: 1rem;
-    }
-    
-    .publication-title {
-        font-size: 1rem;
-    }
-}
+/* Responsive Design intentionally removed.
+   Mobile devices will render the desktop layout (via fixed viewport in index.html).
+*/
 
 /* Print Styles */
 @media print {
