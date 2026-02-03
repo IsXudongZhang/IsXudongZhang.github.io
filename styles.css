@@ -434,6 +434,8 @@ body {
     border: none;
     /* enforce a consistent container ratio so images inside scale uniformly */
     aspect-ratio: 14 / 10; /* ~280x200 */
+    /* fallback for browsers that don't support aspect-ratio */
+    height: 200px;
     overflow: hidden;
     display: flex;
     align-items: center;
