@@ -450,6 +450,43 @@ body {
     margin: 0;
 }
 
+/* Fallback when figure is provided as a PDF: show a neat link block */
+.framework-figure-link {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid rgba(44, 62, 80, 0.12);
+    border-radius: 6px;
+}
+
+.framework-figure-link:hover {
+    border-color: rgba(44, 62, 80, 0.22);
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.figure-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.45rem;
+    border-radius: 999px;
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.figure-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
 .image-caption {
     font-size: 0.85rem;
     color: var(--text-light);
