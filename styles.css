@@ -650,36 +650,7 @@ body {
     .framework-image {
         width: 100%;
         margin-top: 1rem;
-    }
-    
-    .framework-image img {
-        width: 100%;
-        height: auto;
-        max-height: 200px;
-        object-fit: contain;
-    }
-
-    /* Tighter cap for very small screens to avoid vertical overflow */
-    .framework-image {
-        aspect-ratio: auto !important;
-        height: auto !important;
-        max-height: 160px;
-        overflow: hidden;
-        padding: 0.2rem;
-        box-sizing: border-box;
-    }
-
-    .framework-image img {
-        width: auto;
-        height: 100%;
-        max-height: 160px;
-        object-fit: contain;
-        margin: 0 auto;
-        display: block;
-    }
-
-    /* Prevent vertical overflow on small screens: remove enforced aspect-ratio and cap height */
-    .framework-image {
+        /* Prevent vertical overflow on small screens */
         aspect-ratio: auto !important;
         height: auto !important;
         max-height: 200px;
@@ -714,55 +685,19 @@ body {
         min-width: auto;
     }
     
-    /* Publication buttons: show as compact icon-like buttons on mobile */
+    /* Publication links: keep consistent with desktop (plain text links) */
+    .publication-meta {
+        gap: 0.75rem;
+    }
+
     .publication-links {
-        flex-direction: row;
-        justify-content: space-between;
         gap: 0.6rem;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
     }
 
     .publication-links .btn {
-        flex: 1 1 0;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.5rem;
-        padding: 0.55rem 0.75rem;
-        border-radius: 12px;
-        font-size: 0.9rem;
-        width: auto;
-    }
-
-    /* Add visual variants for journal / pdf / code buttons */
-    .publication-links .btn.journal {
-        background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-        border-color: rgba(255,255,255,0.06);
-        color: white;
-    }
-
-    .publication-links .btn.pdf {
-        background: linear-gradient(90deg, #e74c3c, #c0392b);
-        border-color: rgba(0,0,0,0.06);
-        color: white;
-    }
-
-    .publication-links .btn.code {
-        background: linear-gradient(90deg, #27ae60, #16a085);
-        border-color: rgba(0,0,0,0.06);
-        color: white;
-    }
-
-    /* Unicode icon before text for quick visual affordance */
-    .publication-links .btn.journal::before { content: "📖"; }
-    .publication-links .btn.pdf::before     { content: "📄"; }
-    .publication-links .btn.code::before    { content: "💻"; }
-
-    .publication-links .btn::before {
-        display: inline-block;
-        margin-right: 0.35rem;
-        font-size: 1.05rem;
-        line-height: 1;
+        font-size: 0.95rem;
     }
     
     .experience-header {
