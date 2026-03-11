@@ -584,50 +584,9 @@ body {
     font-size: 0.9rem;
 }
 
-/* Responsive Design (mobile-first tweaks)
-   Since viewport uses device width, we need basic small-screen layout rules. */
-@media (max-width: 768px) {
-    :root {
-        --spacing: 1.25rem;
-    }
-
-    .header {
-        padding: 2rem var(--spacing);
-    }
-
-    .header-content {
-        max-width: 100%;
-    }
-
-    .header-right {
-        min-width: 0;
-    }
-
-    .main-content {
-        padding: var(--spacing);
-    }
-
-    /* Publications: stack text + image to avoid wrapping glitches */
-    .publication-content {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .framework-image {
-        width: 100%;
-        max-width: 100%;
-        flex: 0 0 auto;
-        height: auto;
-        aspect-ratio: auto;
-        overflow: visible;
-    }
-
-    .framework-image img {
-        max-height: none;
-        width: 100%;
-        height: auto;
-    }
-}
+/* Responsive Design intentionally removed.
+   Mobile devices will render the desktop layout (via fixed viewport in index.html).
+*/
 
 /* Print Styles */
 @media print {
