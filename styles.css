@@ -47,9 +47,7 @@ strong { font-weight: 600; }
 .lab-link { display: inline-block; font-size: 13px; }
 .profile-contact { display: flex; flex-direction: column; align-items: flex-start; gap: 5px; border-top: 1px solid var(--line); margin-top: 23px; padding-top: 17px; }
 .profile-contact a { display: flex; align-items: center; gap: 10px; min-height: 35px; font-size: 14px; }
-.profile-contact svg, .contact-symbol, .profile-contact a > span:first-child { width: 16px; text-align: center; }
-.contact-symbol { font: bold 16px var(--serif); }
-.profile-contact svg { height: 16px; }
+.profile-contact .contact-icon { width: 18px; height: 18px; flex: 0 0 18px; object-fit: contain; }
 main { min-width: 0; }
 .section { margin-bottom: 42px; scroll-margin-top: 24px; }
 .about { padding-bottom: 32px; border-bottom: 1px solid var(--line); margin-bottom: 32px; }

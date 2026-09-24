@@ -73,3 +73,13 @@ python3 -m http.server 8000
 ## 部署
 
 推送仓库后，由已配置的 GitHub Pages 发布静态文件。请保留 `CNAME` 以继续使用原有自定义域名。也可将整个目录部署至其他静态网站托管服务。
+
+## 联系图标来源
+
+图标保存于 `images/icons/`，以 18px 显示，随页面从本地加载：
+
+- 邮箱：[Google Material Icons 的 email 图标](https://github.com/google/material-design-icons/blob/master/src/communication/email/materialicons/24px.svg)，Apache 2.0 许可证见 `images/icons/LICENSE-material-icons.txt`。
+- Google Scholar：[官方网站图标](https://scholar.google.com/favicon.ico)。
+- GitHub：[官方 SVG 图标](https://github.githubassets.com/favicons/favicon.svg)，[品牌使用说明](https://brand.github.com/foundations/logo)。
+
+Google Scholar 和 GitHub 标志的权利归各自品牌所有。
