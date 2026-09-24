@@ -23,35 +23,6 @@ document.addEventListener('keydown', (event) => {
 });
 window.matchMedia('(max-width: 700px)').addEventListener('change', () => closeMenu());
 
-const publications = [...document.querySelectorAll('.publication')];
-const filters = [...document.querySelectorAll('[data-filter]')];
-const search = document.querySelector('#publication-search');
-const status = document.querySelector('#publication-status');
-let selectedTopic = 'all';
-function filterPublications() {
-  const query = search.value.trim().toLocaleLowerCase();
-  let count = 0;
-  for (const paper of publications) {
-    const matchesTopic = selectedTopic === 'all' || paper.dataset.topic === selectedTopic;
-    paper.hidden = !(matchesTopic && paper.textContent.toLocaleLowerCase().includes(query));
-    if (!paper.hidden) count++;
-  }
-  document.querySelectorAll('.publication-year').forEach(group => {
-    const visible = [...group.querySelectorAll('.publication')].filter(paper => !paper.hidden).length;
-    group.hidden = visible === 0;
-  });
-  status.textContent = count === publications.length ? `Showing all ${count} publications` : `Showing ${count} of ${publications.length} publications`;
-  document.querySelector('.empty-state').hidden = count !== 0;
-}
-filters.forEach(button => button.addEventListener('click', () => {
-  selectedTopic = button.dataset.filter;
-  filters.forEach(filter => filter.setAttribute('aria-pressed', String(filter === button)));
-  filterPublications();
-}));
-search.addEventListener('input', filterPublications);
-document.querySelector('.publication-tools').hidden = false;
-filterPublications();
-
 // Keep the section indicator in sync when navigating or scrolling.
 const navLinks = [...nav.querySelectorAll('a')];
 const sections = navLinks.map(link => document.querySelector(link.getAttribute('href')));
@@ -82,19 +53,3 @@ function showAvatarFallback() {
 }
 avatar.addEventListener('error', showAvatarFallback);
 if (avatar.complete && !avatar.naturalWidth) showAvatarFallback();
-
-// A printed bibliography always includes all papers, even after filtering.
-let printQuery = '';
-let printTopic = 'all';
-window.addEventListener('beforeprint', () => {
-  printQuery = search.value;
-  printTopic = selectedTopic;
-  search.value = '';
-  selectedTopic = 'all';
-  filterPublications();
-});
-window.addEventListener('afterprint', () => {
-  search.value = printQuery;
-  selectedTopic = printTopic;
-  filterPublications();
-});

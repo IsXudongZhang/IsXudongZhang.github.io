@@ -7,7 +7,7 @@
 - 个人资料、导师与实验室、邮箱、Google Scholar 和 GitHub
 - 个人介绍中的研究方向（AI4Science：药物发现、抗体发现、虚拟细胞与器官、自动化实验室）与合作联系入口
 - 按时间倒序完整展示的动态
-- 按年份排列的论文，支持主题筛选及标题、作者、期刊关键词搜索
+- 按年份倒序分组、完整展示的论文
 - 研究经历、荣誉奖项和学术服务
 - 论文 PDF、代码及可单独查看的完整框架图
 
@@ -18,7 +18,7 @@
 ```text
 index.html           页面内容和论文条目
 styles.css           学术排版、响应式布局与打印样式
-script.js            移动导航、论文筛选、搜索、导航高亮
+script.js            移动导航、导航高亮、头像加载回退
 images/              头像、框架图和 favicon.svg
 files/               论文 PDF
 CNAME                原有自定义域名配置
@@ -32,7 +32,7 @@ CNAME                原有自定义域名配置
 python3 -m http.server 8000
 ```
 
-打开 `http://localhost:8000`。也可直接打开 `index.html`。禁用 JavaScript 时，全部论文、章节导航及历史动态仍可访问；筛选和搜索工具仅在 JavaScript 可用时显示。
+打开 `http://localhost:8000`。也可直接打开 `index.html`。禁用 JavaScript 时，全部论文、章节导航及历史动态仍可访问。
 
 ## 更新资料
 
@@ -50,10 +50,8 @@ python3 -m http.server 8000
 
 1. 在对应 `.publication-year` 中复制一个 `article.publication`；新年份需添加年份分组及 `.year-label` 标题。
 2. 为论文设置唯一 `id`，例如 `paper-new-project`。
-3. 设置 `data-topic`：`Drug Discovery`、`AI for Science` 或 `Computer Vision`。增加类别时，同时增加带匹配 `data-filter` 的筛选按钮。
-4. 更新标题、作者、期刊、链接和图片。`strong` 用于突出本人姓名。
-5. 把框架图和 PDF 分别放进 `images/` 和 `files/`；注意路径大小写。
-6. 更新供屏幕阅读器使用的初始统计文字；启用 JavaScript 后，统计会自动计算。年份标题只展示年份。
+3. 更新标题、作者、期刊、链接和图片。`strong` 用于突出本人姓名。
+4. 把框架图和 PDF 分别放进 `images/` 和 `files/`；注意路径大小写。
 
 框架图采用 `object-fit: contain` 完整显示，点击可打开原图。头像文件为 `images/avatar.jpg`，裁剪由 `.profile-photo img` 控制；加载失败时显示姓名首字母。
 
@@ -68,7 +66,7 @@ python3 -m http.server 8000
 - 手机（≤700px）：可折叠导航，增大交互目标。
 - 小屏（≤480px）：论文图文采用单栏。
 - 使用设备实际宽度，支持缩放、键盘操作、可见焦点、跳转正文及减少动态效果偏好。
-- 打印样式隐藏导航和筛选工具，打印完整论文列表，并在打印后恢复筛选状态。
+- 打印样式隐藏导航，打印完整论文列表。
 
 样式变量位于 `styles.css` 的 `:root`。页面采用系统字体与 Georgia 衬线字体，无需加载第三方字体。
 
