@@ -74,10 +74,6 @@ main { min-width: 0; }
 .news-list, .awards-list { list-style: none; margin: 0; padding: 0; }
 .news-list li, .award-item { display: grid; grid-template-columns: 72px minmax(0,1fr); gap: 18px; padding: 7px 0; font-size: 13px; }
 .news-list time, .award-date { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12px; padding-top: 1px; }
-.news-archive { margin-top: 12px; }
-.news-archive summary { width: fit-content; padding: 7px 0; cursor: pointer; font-size: 12px; color: var(--accent); }
-.archive-count { font-size: 10px; margin-left: 6px; border: 1px solid var(--line); padding: 1px 5px; border-radius: 3px; }
-.news-archive[open] summary { margin-bottom: 8px; }
 .section-intro { color: var(--muted); font-size: 13px; margin-top: -8px; margin-bottom: 19px; }
 .publication-tools { display: flex; flex-wrap: wrap; gap: 13px; margin-bottom: 24px; }
 .publication-filters { display: flex; gap: 6px; flex-wrap: wrap; width: 100%; }
@@ -175,7 +171,6 @@ main { min-width: 0; }
   .publication-filters button { min-height: 42px; }
   .search-label input { font-size: 16px; min-height: 44px; }
   .all-publications { min-height: 32px; display: inline-flex; align-items: center; gap: 5px; }
-  .news-archive summary { min-height: 44px; }
   .experience-item, .service-layout { grid-template-columns: 120px minmax(0,1fr); gap: 16px; }
 }
 @media (max-width: 480px) {
@@ -227,6 +222,5 @@ main { min-width: 0; }
   .publication-title { font-size: 13pt; }
   .publication-authors { font-size: 10pt; }
   .publication-year .year-label { break-after: avoid; }
-  .news-archive:not([open]) { display: none; }
   a { color: inherit; }
 }

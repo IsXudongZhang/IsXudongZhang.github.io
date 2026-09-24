@@ -5,7 +5,7 @@
 ## 页面内容
 
 - 个人资料、导师与实验室、邮箱、Google Scholar 和 GitHub
-- 研究方向、近期动态及可展开的历史动态
+- 研究方向及按时间倒序完整展示的动态
 - 按年份排列的论文，支持主题筛选及标题、作者、期刊关键词搜索
 - 研究经历、荣誉奖项和学术服务
 - 论文 PDF、代码及可单独查看的完整框架图
@@ -41,7 +41,7 @@ python3 -m http.server 8000
 | --- | --- |
 | 个人资料与联系信息 | `.profile` |
 | 个人简介与研究方向 | `#about`、`#research` |
-| 动态 | `#news`，旧动态放入 `.news-archive` |
+| 动态 | `#news` 中的 `.news-list`，全部直接展示 |
 | 论文 | `#publications` |
 | 经历、荣誉、学术服务 | `#experience`、`#honors`、`#service` |
 
@@ -58,7 +58,7 @@ python3 -m http.server 8000
 
 ### 添加动态
 
-使用 `<time datetime="YYYY-MM">YYYY.MM</time>`。更新历史动态后，同步调整 `.archive-count` 数字。
+使用 `<time datetime="YYYY-MM">YYYY.MM</time>`，按时间倒序添加到 `#news` 中的 `.news-list`。所有动态直接展示，无需折叠或展开。
 
 ## 响应式与无障碍
 
