@@ -1,160 +1,76 @@
-# Academic Homepage
+# Xudong Zhang · Academic Homepage
 
-个人学术主页网站，展示研究内容、出版物、新闻动态等信息。
+轻量静态学术主页，使用 HTML、CSS 和原生 JavaScript，可直接部署到 GitHub Pages，无构建步骤或外部字体依赖。
+
+## 页面内容
+
+- 个人资料、导师与实验室、邮箱、Google Scholar 和 GitHub
+- 研究方向、近期动态及可展开的历史动态
+- 按年份排列的论文，支持主题筛选及标题、作者、期刊关键词搜索
+- 研究经历、荣誉奖项和学术服务
+- 论文 PDF、代码及可单独查看的完整框架图
+
+现有论文、作者、发表信息与链接沿用原主页。新增研究方向说明及动态来自已有资料，不自动推断新的发表记录。
 
 ## 文件结构
 
-```
-.
-├── index.html          # 主页面文件
-├── styles.css          # 样式文件
-├── images/             # 图片文件夹
-│   ├── avatar.jpg      # 个人头像（推荐：正方形，至少300x300px）
-│   ├── AMG_framework.png
-│   ├── Molormer_framework.png
-│   ├── DeepFusion_framework.png
-│   ├── TransFusionNet_framework.png
-│   └── AMDE_framework.png
-└── files/              # PDF文件文件夹（可选）
-    ├── AMG.pdf
-    ├── molormer.pdf
-    ├── deepfusion.pdf
-    ├── TransFusionNet.pdf
-    └── AMDE.pdf
+```text
+index.html           页面内容和论文条目
+styles.css           学术排版、响应式布局与打印样式
+script.js            移动导航、论文筛选、搜索、导航高亮
+images/              头像、框架图和 favicon.svg
+files/               论文 PDF
+CNAME                原有自定义域名配置
 ```
 
-## 如何添加个人头像
+## 本地预览
 
-1. 准备您的个人头像照片（建议格式：JPG或PNG，正方形图片）
-2. 推荐尺寸：至少 300x300 像素（正方形）
-3. 将图片保存到 `images/` 文件夹中，命名为 `avatar.jpg` 或 `avatar.png`
-4. 头像会自动显示在页面顶部，如果图片不存在，会显示姓名首字母占位符
-
-**注意：** 头像会自动裁剪为圆形，建议使用正方形图片以获得最佳效果。
-
-## 如何添加模型框架图
-
-1. 准备您的模型框架图（建议格式：PNG或JPG，宽度建议800-1200px）
-2. 将图片保存到 `images/` 文件夹中，命名格式为：`[论文名称]_framework.png`
-   - 例如：`AMG_framework.png`、`Molormer_framework.png` 等
-3. 图片会自动显示在对应论文的摘要下方
-4. 如果图片不存在，会自动隐藏（不会显示错误）
-
-### 当前支持的框架图位置
-
-- `images/AMG_framework.png` - AMG论文框架图
-- `images/Molormer_framework.png` - Molormer论文框架图
-- `images/DeepFusion_framework.png` - DeepFusion论文框架图
-- `images/TransFusionNet_framework.png` - TransFusionNet论文框架图
-- `images/AMDE_framework.png` - AMDE论文框架图
-
-## 部署方法
-
-### 方法1：GitHub Pages（推荐）
-
-1. 在GitHub上创建一个新仓库
-2. 将所有文件上传到仓库
-3. 在仓库设置中启用GitHub Pages
-4. 选择主分支作为源
-5. 访问 `https://[your-username].github.io/[repository-name]/`
-
-### 方法2：Netlify
-
-1. 访问 [Netlify](https://www.netlify.com/)
-2. 将项目文件夹拖拽到Netlify部署区域
-3. 自动部署完成，获得一个免费域名
-
-### 方法3：Vercel
-
-1. 访问 [Vercel](https://vercel.com/)
-2. 导入GitHub仓库或直接上传文件夹
-3. 自动部署完成
-
-### 方法4：传统Web服务器
-
-1. 将所有文件上传到您的Web服务器
-2. 确保 `index.html` 在网站根目录
-3. 通过浏览器访问您的域名
-
-### 方法5：本地预览
-
-#### 方式1：使用Python（推荐）
-
-在项目目录下打开终端，运行：
+在项目目录运行：
 
 ```bash
-# Python 3（推荐）
 python3 -m http.server 8000
-
-# 或者如果python3命令不可用
-python -m http.server 8000
-
-# Python 2（如果只有Python 2）
-python -m SimpleHTTPServer 8000
 ```
 
-然后在浏览器中访问：`http://localhost:8000`
+打开 `http://localhost:8000`。也可直接打开 `index.html`。禁用 JavaScript 时，全部论文、章节导航及历史动态仍可访问；筛选和搜索工具仅在 JavaScript 可用时显示。
 
-#### 方式2：使用Node.js
+## 更新资料
 
-如果已安装Node.js，可以使用 `http-server`：
+直接编辑 `index.html` 中对应的语义化区块：
 
-```bash
-# 安装http-server（只需安装一次）
-npm install -g http-server
+| 内容 | 位置 |
+| --- | --- |
+| 个人资料与联系信息 | `.profile` |
+| 个人简介与研究方向 | `#about`、`#research` |
+| 动态 | `#news`，旧动态放入 `.news-archive` |
+| 论文 | `#publications` |
+| 经历、荣誉、学术服务 | `#experience`、`#honors`、`#service` |
 
-# 在项目目录下运行
-http-server -p 8000
-```
+### 添加论文
 
-然后在浏览器中访问：`http://localhost:8000`
+1. 在对应 `.publication-year` 中复制一个 `article.publication`；新年份需添加年份分组及 `.year-label` 标题。
+2. 为论文设置唯一 `id`，例如 `paper-new-project`。
+3. 设置 `data-topic`：`Drug Discovery`、`AI for Science` 或 `Computer Vision`。增加类别时，同时增加带匹配 `data-filter` 的筛选按钮。
+4. 更新标题、作者、期刊、链接和图片。`strong` 用于突出本人姓名。
+5. 把框架图和 PDF 分别放进 `images/` 和 `files/`；注意路径大小写。
+6. 更新 HTML 中的年份篇数及初始统计文字；启用 JavaScript 后，统计会自动计算。
 
-#### 方式3：直接打开文件
+框架图采用 `object-fit: contain` 完整显示，点击可打开原图。头像文件为 `images/avatar.jpg`，裁剪由 `.profile-photo img` 控制；加载失败时显示姓名首字母。
 
-直接在浏览器中打开 `index.html` 文件即可预览（某些功能可能需要本地服务器，如图片加载等）。
+### 添加动态
 
-## 自定义修改
+使用 `<time datetime="YYYY-MM">YYYY.MM</time>`。更新历史动态后，同步调整 `.archive-count` 数字。
 
-### 修改个人信息
+## 响应式与无障碍
 
-编辑 `index.html` 文件中的相应部分：
-- 姓名和标题：在 `<header>` 部分
-- 个人介绍：在 `#about` 部分
-- 新闻动态：在 `#news` 部分
-- 出版物：在 `#publications` 部分
+- 宽屏：个人资料侧栏与正文双栏；足够高的桌面视口固定侧栏。
+- 平板（≤980px）：资料移到正文顶部。
+- 手机（≤700px）：可折叠导航，增大交互目标。
+- 小屏（≤480px）：研究方向和论文图文采用单栏。
+- 使用设备实际宽度，支持缩放、键盘操作、可见焦点、跳转正文及减少动态效果偏好。
+- 打印样式隐藏导航和筛选工具，打印完整论文列表，并在打印后恢复筛选状态。
 
-### 修改样式
+样式变量位于 `styles.css` 的 `:root`。页面采用系统字体与 Georgia 衬线字体，无需加载第三方字体。
 
-编辑 `styles.css` 文件，可以修改：
-- 颜色主题（`:root` 变量）
-- 字体大小和样式
-- 布局和间距
-- 响应式断点
+## 部署
 
-### 添加新论文
-
-在 `#publications` 部分复制一个现有的 `.publication` div，然后修改：
-- 论文标题
-- 作者列表
-- 发表信息
-- 链接
-- 摘要
-- 框架图路径（如果需要）
-
-## 浏览器兼容性
-
-- Chrome (推荐)
-- Firefox
-- Safari
-- Edge
-
-## 注意事项
-
-1. 确保所有图片路径正确
-2. PDF文件链接需要放在 `files/` 文件夹中
-3. 建议图片大小控制在2MB以内以加快加载速度
-4. 定期备份您的文件
-
-## 许可证
-
-个人使用，请根据需要进行修改。
+推送仓库后，由已配置的 GitHub Pages 发布静态文件。请保留 `CNAME` 以继续使用原有自定义域名。也可将整个目录部署至其他静态网站托管服务。

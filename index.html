@@ -1,335 +1,195 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=1000, initial-scale=1.0">
-    <meta name="description" content="Xudong Zhang - Ph.D. Student in Computer Science, AI for Drug Discovery">
-    <title>Xudong Zhang - Academic Homepage</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Xudong Zhang, Ph.D. student at Tongji University. Research in AI for science, drug discovery, generative models, and reinforcement learning." name="description"/>
+<meta content="#fafbf9" name="theme-color"/>
+<title>Xudong Zhang | AI for Science · Tongji University</title>
+<link href="images/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="styles.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
 </head>
-<body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <div class="header-content">
-                <div class="profile-section">
-                    <div class="avatar-wrapper">
-                        <div class="avatar-container">
-                            <img src="images/avatar.jpg" alt="Xudong Zhang" class="avatar" id="avatar-img" onerror="tryAvatarFormats()">
-                            <div class="avatar-placeholder" id="avatar-placeholder" style="display: none;">XZ</div>
-                        </div>
-                        <div class="social-links">
-                            <a href="https://scholar.google.com/citations?user=RUeXE3AAAAAJ&hl=zh-CN&authuser=1" target="_blank" class="social-link" title="Google Scholar">
-                                <span class="social-icon">🎓</span>
-                            </a>
-                            <a href="https://github.com/IsXudongZhang" target="_blank" class="social-link" title="GitHub">
-                                <svg class="social-icon github-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                </svg>
-                            </a>
-                            <a href="mailto:east@tongji.edu.cn" class="social-link" title="Email">
-                                <span class="social-icon">✉️</span>
-                            </a>
-                        </div>
-                        <h1 class="main-title">Xudong Zhang</h1>
-                    </div>
-                    <div class="header-right">
-                        <p class="tagline">AI for Drug Discovery, Science for Better Lives!</p>
-                        <div class="header-image">
-                            <img src="images/home.png" alt="AI Drug Discovery" class="drug-discovery-img" onerror="this.style.display='none'">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <!-- Main Content -->
-        <main class="main-content">
-            <!-- About Section -->
-            <section class="section" id="about">
-                <h2 class="section-title">About</h2>
-                <div class="about-content">
-                    <p>
-                        Hey there! I'm currently a third-year Ph.D. student in Computer Science and Technology at Tongji University, 
-                        supervised by Prof. <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=kBhIyv4AAAAJ" target="_blank" class="link">Guang Chen</a>, 
-                        the head of the <a href="https://www.embodiment.ai/" target="_blank" class="link">Generalist Embodied AI Lab</a>. 
-                        My research focuses on <strong>AI4Science</strong>, with specific interests in (1) drug discovery, (2) generative models, and (3) reinforcement learning.
-                    </p>
-                </div>
-            </section>
-
-            <!-- News Section -->
-            <section class="section" id="news">
-                <h2 class="section-title">📣 News</h2>
-                <ul class="news-list">
-                    <li class="news-item">
-                        <span class="news-icon">🎉</span>
-                        <span class="news-date">2025.08</span>
-                        <span class="news-content">Our work (SWITCH) on spatial multi-omics is accepted by Nature Computational Science (NCS)!</span>
-                    </li>
-                    <li class="news-item">
-                        <span class="news-icon">🎉</span>
-                        <span class="news-date">2025.02</span>
-                        <span class="news-content">Our work (RCP-Bench) on collaborative perception is accepted by CVPR 2025!</span>
-                    </li>
-                    <li class="news-item">
-                        <span class="news-icon">🎉</span>
-                        <span class="news-date">2024.12</span>
-                        <span class="news-content">We won the championship (1/226) in <a href="https://aistudio.baidu.com/competition/detail/1214/0/introduction" target="_blank" class="link">The Second Global AI Drug Development Algorithm Competition</a>!</span>
-                    </li>
-                    <li class="news-item">
-                        <span class="news-icon">🎉</span>
-                        <span class="news-date">2024.11</span>
-                        <span class="news-content">Our work (AMG) on 3D structure-based molecular generation is accepted by Briefings in Bioinformatics!</span>
-                    </li>
-                    <li class="news-item">
-                        <span class="news-icon">🎉</span>
-                        <span class="news-date">2022.09</span>
-                        <span class="news-content">Our work on medical image segmentation is accepted by IEEE JBHI (IF: 7.7)!</span>
-                    </li>
-                    <li class="news-item">
-                        <span class="news-icon">🎉</span>
-                        <span class="news-date">2022.07</span>
-                        <span class="news-content">Our work (Molormer) on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994)!</span>
-                    </li>
-                    <li class="news-item">
-                        <span class="news-icon">🎉</span>
-                        <span class="news-date">2021.12</span>
-                        <span class="news-content">Our work on drug-drug interaction prediction is accepted by Briefings in Bioinformatics (IF: 13.994)!</span>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- Publications Section -->
-            <section class="section" id="publications">
-                <h2 class="section-title">📝 Publications</h2>
-
-                <div class="publication">
-                    <div class="publication-content">
-                        <div class="publication-text">
-                            <h3 class="publication-title">Integrative deep learning of spatial multi-omics with SWITCH</h3>
-                            <p class="publication-authors">
-                                Zhongzhan Li, <a href="https://scholar.google.com.hk/citations?user=pZk-LBIAAAAJ&hl=zh-CN" target="_blank" class="link">Sanqing Qu</a>, Haixin Liang, Ruohui Tang, <strong>Xudong Zhang</strong>, <a href="https://scholar.google.com.hk/citations?user=DyEUPFUAAAAJ&hl=zh-CN" target="_blank" class="link">Fan Lu</a>, Jiani Yang, Ziling Gan, <a href="https://scholar.google.com.hk/citations?user=eMjaV08AAAAJ&hl=zh-CN" target="_blank" class="link">Shaorong Gao</a>, Yanping Zhang, <a href="https://scholar.google.com.hk/citations?user=kBhIyv4AAAAJ&hl=zh-CN" target="_blank" class="link">Guang Chen</a>
-                            </p>
-                            <div class="publication-meta">
-                                <p class="publication-venue">Nature Computational Science, 2025</p>
-                                <div class="publication-links">
-                                    <a href="https://www.nature.com/articles/s43588-025-00891-w" target="_blank" class="btn btn-primary journal">Link</a>
-                                    <a href="files/switch.pdf" target="_blank" class="btn btn-primary pdf">PDF</a>
-                                    <a href="https://github.com/zzli123/SWITCH/" target="_blank" class="btn btn-primary code">Code</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="framework-image">
-                            <img src="images/switch_framework.png" alt="SWITCH Framework" onerror="this.style.display='none'">
-                            <p class="image-caption" style="display: none;">Figure: SWITCH Framework</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="publication">
-                    <div class="publication-content">
-                        <div class="publication-text">
-                            <h3 class="publication-title">RCP-Bench: Benchmarking Robustness for Collaborative Perception Under Diverse Corruptions</h3>
-                            <p class="publication-authors">
-                                Shihang Du, <a href="https://scholar.google.com.hk/citations?user=pZk-LBIAAAAJ&hl=zh-CN" target="_blank" class="link">Sanqing Qu</a>, Tianhang Wang, <strong>Xudong Zhang</strong>, Yunwei Zhu, Jian Mao, <a href="https://scholar.google.com.hk/citations?user=DyEUPFUAAAAJ&hl=zh-CN" target="_blank" class="link">Fan Lu</a>, Qiao Lin, <a href="https://scholar.google.com.hk/citations?user=kBhIyv4AAAAJ&hl=zh-CN" target="_blank" class="link">Guang Chen</a>
-                            </p>
-                            <div class="publication-meta">
-                                <p class="publication-venue">CVPR 2025</p>
-                                <div class="publication-links">
-                                    <a href="https://ieeexplore.ieee.org/abstract/document/11091872" target="_blank" class="btn btn-primary journal">Link</a>
-                                    <a href="files/rcpbench.pdf" target="_blank" class="btn btn-primary pdf">PDF</a>
-                                    <a href="https://github.com/LuckyDush/RCP-Bench" target="_blank" class="btn btn-primary code">Code</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="framework-image">
-                            <img src="images/rcpbench_framework.png" alt="RCP-Bench Framework" onerror="this.style.display='none'">
-                            <p class="image-caption" style="display: none;">Figure: RCP-Bench</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="publication">
-                    <div class="publication-content">
-                        <div class="publication-text">
-                            <h3 class="publication-title">Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</h3>
-                            <p class="publication-authors">
-                                <strong>Xudong Zhang</strong>, Jing Hou, <a href="https://scholar.google.com.hk/citations?user=pZk-LBIAAAAJ&hl=zh-CN" target="_blank" class="link">Sanqing Qu</a>, <a href="https://scholar.google.com.hk/citations?user=DyEUPFUAAAAJ&hl=zh-CN" target="_blank" class="link">Fan Lu</a>, Zhixin Tian, <a href="https://scholar.google.com.hk/citations?user=-CA8QgwAAAAJ&hl=zh-CN" target="_blank" class="link">Alois Knoll</a>, <a href="https://scholar.google.com.hk/citations?user=kBhIyv4AAAAJ&hl=zh-CN" target="_blank" class="link">Guang Chen</a>, <a href="https://scholar.google.com.hk/citations?user=eMjaV08AAAAJ&hl=zh-CN" target="_blank" class="link">Shaorong Gao</a>, Yanping Zhang
-                            </p>
-                            <div class="publication-meta">
-                                <p class="publication-venue">Briefings in Bioinformatics (BIB), 2025</p>
-                                <div class="publication-links">
-                                    <a href="https://academic.oup.com/bib/article/26/4/bbae531/8222510" target="_blank" class="btn btn-primary journal">Link</a>
-                                    <a href="files/AMG.pdf" target="_blank" class="btn btn-primary pdf">PDF</a>
-                                    <a href="https://github.com/ispc-lab/AMG" target="_blank" class="btn btn-primary code">Code</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Framework image placeholder - replace with your actual image -->
-                        <div class="framework-image">
-                            <img src="images/AMG_framework.png" alt="AMG Framework" onerror="this.style.display='none'">
-                            <p class="image-caption" style="display: none;">Figure: AMG Framework Architecture</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="publication">
-                    <div class="publication-content">
-                        <div class="publication-text">
-                            <h3 class="publication-title">Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction</h3>
-                            <p class="publication-authors">
-                                <strong>Xudong Zhang</strong>, Gan Wang, Xiangyu Meng, <a href="https://scholar.google.com.hk/citations?user=B2-HjCAAAAAJ&hl=zh-CN" target="_blank" class="link">Shuang Wang</a>, Ying Zhang, Alfonso Rodriguez-Paton, <a href="https://scholar.google.com.hk/citations?user=4ajuBSkAAAAJ&hl=zh-CN" target="_blank" class="link">Jianmin Wang</a>, Xun Wang
-                            </p>
-                            <div class="publication-meta">
-                                <p class="publication-venue">Briefings in Bioinformatics (BIB), 2022</p>
-                                <div class="publication-links">
-                                    <a href="https://doi.org/10.1093/bib/bbac296" target="_blank" class="btn btn-primary journal">Link</a>
-                                    <a href="files/molormer.pdf" target="_blank" class="btn btn-primary pdf">PDF</a>
-                                    <a href="https://github.com/IsXudongZhang/Molormer" target="_blank" class="btn btn-primary code">Code</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Framework image placeholder -->
-                        <div class="framework-image">
-                            <img src="images/molormer_framework.png" alt="Molormer Framework" onerror="this.style.display='none'">
-                            <p class="image-caption" style="display: none;">Figure: Molormer Framework Architecture</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="publication">
-                    <div class="publication-content">
-                        <div class="publication-text">
-                            <h3 class="publication-title">DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions</h3>
-                            <p class="publication-authors">
-                                <a href="https://scholar.google.com.hk/citations?user=uHCxU7kAAAAJ&hl=zh-CN" target="_blank" class="link">Tao Song</a>, <strong>Xudong Zhang</strong>, Mao Ding, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang
-                            </p>
-                            <div class="publication-meta">
-                                <p class="publication-venue">Methods, 2022</p>
-                                <div class="publication-links">
-                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub" target="_blank" class="btn btn-primary journal">Link</a>
-                                    <a href="files/deepfusion.pdf" target="_blank" class="btn btn-primary pdf">PDF</a>
-                                    <a href="https://github.com/IsXudongZhang/DeepFusion" target="_blank" class="btn btn-primary code">Code</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Framework image placeholder -->
-                        <div class="framework-image">
-                            <img src="images/deepfusion_framework.png" alt="DeepFusion Framework" onerror="this.style.display='none'">
-                            <p class="image-caption" style="display: none;">Figure: DeepFusion Framework Architecture</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="publication">
-                    <div class="publication-content">
-                        <div class="publication-text">
-                            <h3 class="publication-title">TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2</h3>
-                            <p class="publication-authors">
-                                Xun Wang, <strong>Xudong Zhang</strong>, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng
-                            </p>
-                            <div class="publication-meta">
-                                <p class="publication-venue">IEEE Journal of Biomedical and Health Informatics (JBHI), 2022</p>
-                                <div class="publication-links">
-                                    <a href="https://ieeexplore.ieee.org/document/9893911" target="_blank" class="btn btn-primary journal">Link</a>
-                                    <a href="files/TransFusionNet.pdf" target="_blank" class="btn btn-primary pdf">PDF</a>
-                                    <a href="https://github.com/menggerSherry/Trans_Fusion_Net" target="_blank" class="btn btn-primary code">Code</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Framework image placeholder -->
-                        <div class="framework-image">
-                            <img src="images/transfusionnet_framework.png" alt="TransFusionNet Framework" onerror="this.style.display='none'">
-                            <p class="image-caption" style="display: none;">Figure: TransFusionNet Framework Architecture</p>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <!-- Experience Section -->
-            <section class="section" id="experience">
-                <h2 class="section-title">💼 Experience</h2>
-                <div class="experience-list">
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <h3 class="experience-title">Research Intern</h3>
-                            <span class="experience-company">XtalPi (Ailux & 抗体IDD部)</span>
-                        </div>
-                        <div class="experience-details">
-                            <span class="experience-date">2026.01 - Present</span>
-                            <p class="experience-description">
-                                Conducting research on AI antibody design, focusing on developing computational methods for out-of-distribution (OOD) antibody-antigen interaction prediction and antibody design.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Honors and Awards Section -->
-            <section class="section" id="honors">
-                <h2 class="section-title">🏆 Honors and Awards</h2>
-                <ul class="awards-list">
-                    <li class="award-item">
-                        <span class="award-date">2025.10</span>
-                        <span class="award-content">Special Prize and Most Popular Award, 19th Challenge Cup AI+ Special Competition</span>
-                    </li>
-                    <li class="award-item">
-                        <span class="award-date">2024.12</span>
-                        <span class="award-content">First Prize in the 2nd Global AI Drug Development Algorithm Competition (1/226)</span>
-                    </li>
-                    <li class="award-item">
-                        <span class="award-date">2023.04</span>
-                        <span class="award-content">Outstanding Graduate of Shandong Province</span>
-                    </li>
-                    <li class="award-item">
-                        <span class="award-date">2022.12</span>
-                        <span class="award-content">National scholarship for Postgraduates</span>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- Academic Service Section -->
-            <section class="section" id="service">
-                <h2 class="section-title">🌐 Academic Service</h2>
-                <p class="service-content">
-                    I serve as a reviewer for Briefings in Bioinformatics, JBHI, Journal of Cheminformatics, BioData Mining, and BMC Bioinformatics.
-                </p>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p>&copy; Xudong Zhang (张旭东).</p>
-        </footer>
-    </div>
-    
-    <script>
-        // Try different avatar formats if the first one fails
-        function tryAvatarFormats() {
-            const avatarImg = document.getElementById('avatar-img');
-            const placeholder = document.getElementById('avatar-placeholder');
-            const formats = ['images/avatar.png', 'images/avatar.jpeg', 'images/avatar.JPG', 'images/avatar.PNG'];
-            let currentIndex = 0;
-            
-            function tryNext() {
-                if (currentIndex < formats.length) {
-                    avatarImg.src = formats[currentIndex];
-                    currentIndex++;
-                } else {
-                    // All formats failed, show placeholder
-                    avatarImg.style.display = 'none';
-                    placeholder.style.display = 'block';
-                }
-            }
-            
-            avatarImg.onerror = tryNext;
-            tryNext();
-        }
-    </script>
+<body id="top">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="nav-inner">
+<a class="wordmark" href="#top">Xudong Zhang<span aria-hidden="true" class="wordmark-dot">.</span></a>
+<button aria-controls="site-nav" aria-expanded="false" class="menu-toggle" hidden="" type="button">Menu <span aria-hidden="true">☰</span></button>
+<nav aria-label="Main navigation" class="site-nav" id="site-nav">
+<a aria-current="location" href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#publications">Publications</a>
+<a href="#experience">Experience</a>
+<a href="#honors">Honors</a>
+<a href="#service">Service</a>
+</nav>
+</div>
+</header>
+<div class="page-layout">
+<aside aria-label="Profile and contact information" class="profile">
+<div class="profile-photo">
+<img alt="Xudong Zhang" fetchpriority="high" height="190" id="avatar-img" src="images/avatar.jpg" width="228"/>
+<span aria-label="Xudong Zhang initials" class="avatar-placeholder" hidden="">XZ</span>
+</div>
+<div class="profile-info">
+<h1>Xudong Zhang</h1>
+<p class="chinese-name" lang="zh-CN">张旭东</p>
+<p class="profile-role">Ph.D. Student</p>
+<p class="profile-department">Computer Science and Technology<br/><strong>Tongji University</strong></p>
+<a class="lab-link" href="https://www.embodiment.ai/" rel="noopener noreferrer" target="_blank">Generalist Embodied AI Lab <span aria-hidden="true">↗</span></a>
+<div class="profile-contact">
+<a href="mailto:east@tongji.edu.cn"><span aria-hidden="true">✉</span> east@tongji.edu.cn</a>
+<a href="https://scholar.google.com/citations?user=RUeXE3AAAAAJ" rel="noopener noreferrer" target="_blank"><span aria-hidden="true" class="contact-symbol">S</span> Google Scholar <span aria-hidden="true">↗</span></a>
+<a href="https://github.com/IsXudongZhang" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24"><path d="m8 5-7 7 7 7m8-14 7 7-7 7m-3-16-2 20"></path></svg> GitHub <span aria-hidden="true">↗</span></a>
+</div>
+<div class="profile-focus"><span class="eyebrow">Research focus</span><p>AI for Science<br/>Molecular &amp; antibody design</p></div>
+</div>
+</aside>
+<main id="main" tabindex="-1">
+<section aria-labelledby="about-title" class="section about" id="about">
+<p class="eyebrow">Computer science meets life science</p>
+<h2 id="about-title">AI for drug discovery.<br/><em>Science for better lives.</em></h2>
+<div class="about-copy">
+<p>I am a Ph.D. student in Computer Science and Technology at <strong>Tongji University</strong>, supervised by Prof. <a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=kBhIyv4AAAAJ" rel="noopener noreferrer" target="_blank">Guang Chen</a>, who leads the <a href="https://www.embodiment.ai/" rel="noopener noreferrer" target="_blank">Generalist Embodied AI Lab</a>.</p>
+<p>My research focuses on <strong>AI for Science</strong>, with particular interests in drug discovery, generative models, and reinforcement learning. I study computational methods for molecular generation and interaction prediction.</p>
+<p>I am also a research intern at <strong>XtalPi</strong>, working on antibody–antigen interaction prediction and antibody design.</p>
+</div>
+<a class="text-link" href="#publications">Explore my research <span aria-hidden="true">↓</span></a>
+</section>
+<section aria-labelledby="research-title" class="section" id="research">
+<div class="section-heading"><h2 id="research-title">Research interests</h2><span class="section-note">Methods &amp; applications</span></div>
+<div class="research-grid">
+<div class="research-item"><span class="research-number">01</span><h3>Drug discovery</h3><p>Molecular generation, drug interactions, and antibody design.</p></div>
+<div class="research-item"><span class="research-number">02</span><h3>Generative models</h3><p>Learning molecular representations and generating 3D structures.</p></div>
+<div class="research-item"><span class="research-number">03</span><h3>Reinforcement learning</h3><p>Guiding molecular design through interaction and feedback.</p></div>
+</div>
+</section>
+<section aria-labelledby="news-title" class="section news" id="news">
+<div class="section-heading"><h2 id="news-title">News</h2><span class="section-note">Recent updates</span></div>
+<ul class="news-list">
+<li><time datetime="2026-01">2026.01</time><div>Joined <strong>XtalPi</strong> as a research intern to work on AI antibody design.</div></li>
+<li><time datetime="2025-10">2025.10</time><div>Received the <strong>Special Prize and Most Popular Award</strong> in the 19th Challenge Cup AI+ Special Competition.</div></li>
+<li><time datetime="2025-08">2025.08</time><div>Our work (SWITCH) on spatial multi-omics is accepted by Nature Computational Science (NCS)!</div></li><li><time datetime="2025-02">2025.02</time><div>Our work (RCP-Bench) on collaborative perception is accepted by CVPR 2025!</div></li>
+</ul>
+<details class="news-archive"><summary>Earlier updates <span class="archive-count">5</span></summary><ul class="news-list"><li><time datetime="2024-12">2024.12</time><div>We won the championship (1/226) in <a class="link" href="https://aistudio.baidu.com/competition/detail/1214/0/introduction" rel="noopener noreferrer" target="_blank">The Second Global AI Drug Development Algorithm Competition</a>!</div></li><li><time datetime="2024-11">2024.11</time><div>Our work (AMG) on 3D structure-based molecular generation is accepted by Briefings in Bioinformatics!</div></li><li><time datetime="2022-09">2022.09</time><div>Our work on medical image segmentation is accepted by IEEE JBHI!</div></li><li><time datetime="2022-07">2022.07</time><div>Our work (Molormer) on drug-drug interaction prediction is accepted by Briefings in Bioinformatics!</div></li><li><time datetime="2021-12">2021.12</time><div>Our work on drug-drug interaction prediction is accepted by Briefings in Bioinformatics!</div></li></ul></details>
+</section>
+<section aria-labelledby="publications-title" class="section publications" id="publications">
+<div class="section-heading"><h2 id="publications-title">Selected publications</h2><a class="section-note all-publications" href="https://scholar.google.com/citations?user=RUeXE3AAAAAJ" rel="noopener noreferrer" target="_blank">Google Scholar <span aria-hidden="true">↗</span></a></div>
+<p class="section-intro">Research across molecular design, scientific discovery, and visual perception.</p>
+<div class="publication-tools" hidden="">
+<div aria-label="Filter publications by topic" class="publication-filters" role="group">
+<button aria-pressed="true" data-filter="all" type="button">All</button>
+<button aria-pressed="false" data-filter="Drug Discovery" type="button">Drug discovery</button>
+<button aria-pressed="false" data-filter="AI for Science" type="button">AI for science</button>
+<button aria-pressed="false" data-filter="Computer Vision" type="button">Computer vision</button>
+</div>
+<label class="search-label"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg><span class="sr-only">Search publications by title, author, or venue</span><input autocomplete="off" id="publication-search" placeholder="Search publications…" type="search"/></label>
+<p aria-live="polite" class="publication-status" id="publication-status" role="status">Showing all 6 publications</p>
+</div>
+<div class="publication-year"><h3 class="year-label">2025 <span>03 papers</span></h3><article class="publication" data-topic="AI for Science" id="paper-switch">
+<a aria-label="View full SWITCH research figure" class="publication-figure" href="images/switch_framework.png" rel="noopener noreferrer" target="_blank">
+<img alt="SWITCH research framework" decoding="async" height="1288" loading="lazy" src="images/switch_framework.png" width="1630"/>
+<span>SWITCH <span aria-hidden="true">↗</span></span>
+</a>
+<div class="publication-text">
+<p class="paper-topic">Spatial multi-omics</p>
+<h4 class="publication-title">Integrative deep learning of spatial multi-omics with SWITCH</h4>
+<p class="publication-authors">Zhongzhan Li, <a class="link" href="https://scholar.google.com.hk/citations?user=pZk-LBIAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Sanqing Qu</a>, Haixin Liang, Ruohui Tang, <strong>Xudong Zhang</strong>, <a class="link" href="https://scholar.google.com.hk/citations?user=DyEUPFUAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Fan Lu</a>, Jiani Yang, Ziling Gan, <a class="link" href="https://scholar.google.com.hk/citations?user=eMjaV08AAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Shaorong Gao</a>, Yanping Zhang, <a class="link" href="https://scholar.google.com.hk/citations?user=kBhIyv4AAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Guang Chen</a></p>
+<p class="publication-venue">Nature Computational Science, 2025</p>
+<div class="publication-links"><a class="btn btn-primary journal" href="https://www.nature.com/articles/s43588-025-00891-w" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a class="btn btn-primary pdf" href="files/switch.pdf" rel="noopener noreferrer" target="_blank">PDF</a><a class="btn btn-primary code" href="https://github.com/zzli123/SWITCH/" rel="noopener noreferrer" target="_blank">Code</a></div>
+</div>
+</article><article class="publication" data-topic="Computer Vision" id="paper-rcp-bench">
+<a aria-label="View full RCP-Bench research figure" class="publication-figure" href="images/rcpbench_framework.png" rel="noopener noreferrer" target="_blank">
+<img alt="RCP-Bench research framework" decoding="async" height="586" loading="lazy" src="images/rcpbench_framework.png" width="1146"/>
+<span>RCP-Bench <span aria-hidden="true">↗</span></span>
+</a>
+<div class="publication-text">
+<p class="paper-topic">Collaborative perception</p>
+<h4 class="publication-title">RCP-Bench: Benchmarking Robustness for Collaborative Perception Under Diverse Corruptions</h4>
+<p class="publication-authors">Shihang Du, <a class="link" href="https://scholar.google.com.hk/citations?user=pZk-LBIAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Sanqing Qu</a>, Tianhang Wang, <strong>Xudong Zhang</strong>, Yunwei Zhu, Jian Mao, <a class="link" href="https://scholar.google.com.hk/citations?user=DyEUPFUAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Fan Lu</a>, Qiao Lin, <a class="link" href="https://scholar.google.com.hk/citations?user=kBhIyv4AAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Guang Chen</a></p>
+<p class="publication-venue">CVPR 2025</p>
+<div class="publication-links"><a class="btn btn-primary journal" href="https://ieeexplore.ieee.org/abstract/document/11091872" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a class="btn btn-primary pdf" href="files/rcpbench.pdf" rel="noopener noreferrer" target="_blank">PDF</a><a class="btn btn-primary code" href="https://github.com/LuckyDush/RCP-Bench" rel="noopener noreferrer" target="_blank">Code</a></div>
+</div>
+</article><article class="publication" data-topic="Drug Discovery" id="paper-amg">
+<a aria-label="View full AMG research figure" class="publication-figure" href="images/AMG_framework.png" rel="noopener noreferrer" target="_blank">
+<img alt="AMG research framework" decoding="async" height="894" loading="lazy" src="images/AMG_framework.png" width="806"/>
+<span>AMG <span aria-hidden="true">↗</span></span>
+</a>
+<div class="publication-text">
+<p class="paper-topic">3D molecular generation</p>
+<h4 class="publication-title">Deep reinforcement learning as an interaction agent to steer fragment-based 3D molecular generation for protein pockets</h4>
+<p class="publication-authors"><strong>Xudong Zhang</strong>, Jing Hou, <a class="link" href="https://scholar.google.com.hk/citations?user=pZk-LBIAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Sanqing Qu</a>, <a class="link" href="https://scholar.google.com.hk/citations?user=DyEUPFUAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Fan Lu</a>, Zhixin Tian, <a class="link" href="https://scholar.google.com.hk/citations?user=-CA8QgwAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Alois Knoll</a>, <a class="link" href="https://scholar.google.com.hk/citations?user=kBhIyv4AAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Guang Chen</a>, <a class="link" href="https://scholar.google.com.hk/citations?user=eMjaV08AAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Shaorong Gao</a>, Yanping Zhang</p>
+<p class="publication-venue">Briefings in Bioinformatics (BIB), 2025</p>
+<div class="publication-links"><a class="btn btn-primary journal" href="https://academic.oup.com/bib/article/26/4/bbae531/8222510" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a class="btn btn-primary pdf" href="files/AMG.pdf" rel="noopener noreferrer" target="_blank">PDF</a><a class="btn btn-primary code" href="https://github.com/ispc-lab/AMG" rel="noopener noreferrer" target="_blank">Code</a></div>
+</div>
+</article></div>
+<div class="publication-year"><h3 class="year-label">2022 <span>03 papers</span></h3><article class="publication" data-topic="Drug Discovery" id="paper-molormer">
+<a aria-label="View full Molormer research figure" class="publication-figure" href="images/molormer_framework.png" rel="noopener noreferrer" target="_blank">
+<img alt="Molormer research framework" decoding="async" height="536" loading="lazy" src="images/molormer_framework.png" width="806"/>
+<span>Molormer <span aria-hidden="true">↗</span></span>
+</a>
+<div class="publication-text">
+<p class="paper-topic">Drug–drug interactions</p>
+<h4 class="publication-title">Molormer: a lightweight self-attention-based method focused on spatial structure of molecular graph for drug-drug interactions prediction</h4>
+<p class="publication-authors"><strong>Xudong Zhang</strong>, Gan Wang, Xiangyu Meng, <a class="link" href="https://scholar.google.com.hk/citations?user=B2-HjCAAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Shuang Wang</a>, Ying Zhang, Alfonso Rodriguez-Paton, <a class="link" href="https://scholar.google.com.hk/citations?user=4ajuBSkAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Jianmin Wang</a>, Xun Wang</p>
+<p class="publication-venue">Briefings in Bioinformatics (BIB), 2022</p>
+<div class="publication-links"><a class="btn btn-primary journal" href="https://doi.org/10.1093/bib/bbac296" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a class="btn btn-primary pdf" href="files/molormer.pdf" rel="noopener noreferrer" target="_blank">PDF</a><a class="btn btn-primary code" href="https://github.com/IsXudongZhang/Molormer" rel="noopener noreferrer" target="_blank">Code</a></div>
+</div>
+</article><article class="publication" data-topic="Drug Discovery" id="paper-deepfusion">
+<a aria-label="View full DeepFusion research figure" class="publication-figure" href="images/deepfusion_framework.png" rel="noopener noreferrer" target="_blank">
+<img alt="DeepFusion research framework" decoding="async" height="448" loading="lazy" src="images/deepfusion_framework.png" width="704"/>
+<span>DeepFusion <span aria-hidden="true">↗</span></span>
+</a>
+<div class="publication-text">
+<p class="paper-topic">Drug–target interactions</p>
+<h4 class="publication-title">DeepFusion: A Deep Learning Based Multi-Scale Feature Fusion Method for Predicting Drug-Target Interactions</h4>
+<p class="publication-authors"><a class="link" href="https://scholar.google.com.hk/citations?user=uHCxU7kAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Tao Song</a>, <strong>Xudong Zhang</strong>, Mao Ding, Alfonso Rodriguez-Paton, Shudong Wang, Gan Wang</p>
+<p class="publication-venue">Methods, 2022</p>
+<div class="publication-links"><a class="btn btn-primary journal" href="https://www.sciencedirect.com/science/article/abs/pii/S1046202322000378?via%3Dihub" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a class="btn btn-primary pdf" href="files/deepfusion.pdf" rel="noopener noreferrer" target="_blank">PDF</a><a class="btn btn-primary code" href="https://github.com/IsXudongZhang/DeepFusion" rel="noopener noreferrer" target="_blank">Code</a></div>
+</div>
+</article><article class="publication" data-topic="Computer Vision" id="paper-transfusionnet">
+<a aria-label="View full TransFusionNet research figure" class="publication-figure" href="images/transfusionnet_framework.png" rel="noopener noreferrer" target="_blank">
+<img alt="TransFusionNet research framework" decoding="async" height="414" loading="lazy" src="images/transfusionnet_framework.png" width="766"/>
+<span>TransFusionNet <span aria-hidden="true">↗</span></span>
+</a>
+<div class="publication-text">
+<p class="paper-topic">Medical image segmentation</p>
+<h4 class="publication-title">TransFusionNet: Semantic and Spatial Features Fusion Framework for Liver Tumor and Vessel Segmentation Under JetsonTX2</h4>
+<p class="publication-authors">Xun Wang, <strong>Xudong Zhang</strong>, Gan Wang, Ying Zhang, Xin Shi, Huanhuan Dai, Min Liu, Zixuan Wang, Xiangyu Meng</p>
+<p class="publication-venue">IEEE Journal of Biomedical and Health Informatics (JBHI), 2022</p>
+<div class="publication-links"><a class="btn btn-primary journal" href="https://ieeexplore.ieee.org/document/9893911" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a class="btn btn-primary pdf" href="files/TransFusionNet.pdf" rel="noopener noreferrer" target="_blank">PDF</a><a class="btn btn-primary code" href="https://github.com/menggerSherry/Trans_Fusion_Net" rel="noopener noreferrer" target="_blank">Code</a></div>
+</div>
+</article></div>
+<p class="empty-state" hidden="">No matching publications. Try another keyword or topic.</p>
+</section>
+<section aria-labelledby="experience-title" class="section" id="experience">
+<div class="section-heading"><h2 id="experience-title">Experience</h2></div>
+<div class="experience-item"><p class="experience-date">Jan 2026 — Present</p><div><div class="experience-heading"><h3>Research Intern</h3><span>XtalPi</span></div><p class="experience-team">Ailux &amp; 抗体IDD部</p><p>Developing computational methods for out-of-distribution (OOD) antibody–antigen interaction prediction and antibody design.</p></div></div>
+</section>
+<section aria-labelledby="honors-title" class="section" id="honors">
+<div class="section-heading"><h2 id="honors-title">Honors &amp; awards</h2></div>
+<ul class="awards-list"><li class="award-item">
+<span class="award-date">2025.10</span>
+<span class="award-content">Special Prize and Most Popular Award, 19th Challenge Cup AI+ Special Competition</span>
+</li><li class="award-item">
+<span class="award-date">2024.12</span>
+<span class="award-content">First Prize in the 2nd Global AI Drug Development Algorithm Competition (1/226)</span>
+</li><li class="award-item">
+<span class="award-date">2023.04</span>
+<span class="award-content">Outstanding Graduate of Shandong Province</span>
+</li><li class="award-item">
+<span class="award-date">2022.12</span>
+<span class="award-content">National scholarship for Postgraduates</span>
+</li></ul>
+</section>
+<section aria-labelledby="service-title" class="section service" id="service">
+<div class="section-heading"><h2 id="service-title">Academic service</h2></div>
+<div class="service-layout"><h3>Journal reviewer</h3><ul><li>Briefings in Bioinformatics</li><li>IEEE Journal of Biomedical and Health Informatics</li><li>Journal of Cheminformatics</li><li>BioData Mining</li><li>BMC Bioinformatics</li></ul></div>
+</section>
+<footer class="footer"><p>© Xudong Zhang <span lang="zh-CN">张旭东</span><br/><span>Tongji University · AI for Science</span></p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+</main>
+</div>
 </body>
 </html>
