@@ -66,11 +66,6 @@ main { min-width: 0; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); margin-bottom: 22px; }
 .section-heading h2 { font: 25px/1.35 var(--serif); letter-spacing: -.4px; }
 .section-note { font-size: 11px; color: var(--muted); }
-.research-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 22px; }
-.research-item { padding-left: 15px; border-left: 2px solid #c3d1c7; }
-.research-number { font: 12px var(--serif); color: var(--accent); }
-.research-item h3 { font-size: 13px; margin: 7px 0; font-weight: 650; }
-.research-item p { font-size: 12px; line-height: 1.7; color: var(--muted); }
 .news-list, .awards-list { list-style: none; margin: 0; padding: 0; }
 .news-list li, .award-item { display: grid; grid-template-columns: 72px minmax(0,1fr); gap: 18px; padding: 7px 0; font-size: 13px; }
 .news-list time, .award-date { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12px; padding-top: 1px; }
@@ -161,8 +156,6 @@ main { min-width: 0; }
   .section { margin-bottom: 34px; }
   .section-heading h2 { font-size: 23px; }
   .section-heading { gap: 12px; flex-wrap: wrap; margin-bottom: 19px; }
-  .research-grid { gap: 16px; }
-  .research-item { padding-left: 12px; }
   .publication { grid-template-columns: 142px minmax(0,1fr); gap: 18px; }
   .publication-figure img { height: 110px; }
   .publication-title { font-size: 16px; }
@@ -183,11 +176,6 @@ main { min-width: 0; }
   .eyebrow { font-size: 9px; letter-spacing: 1.3px; }
   .about h2 { font-size: clamp(26px, 7.2vw, 32px); }
   .about-copy { font-size: 14px; }
-  .research-grid { grid-template-columns: 1fr; gap: 17px; }
-  .research-item { display: grid; grid-template-columns: 25px minmax(0,1fr); gap: 2px 8px; }
-  .research-number { grid-row: span 2; padding-top: 3px; }
-  .research-item h3 { margin: 0; font-size: 14px; }
-  .research-item p { font-size: 13px; }
   .news-list li, .award-item { grid-template-columns: 57px minmax(0,1fr); gap: 12px; }
   .publication { grid-template-columns: 1fr; gap: 16px; padding: 24px 0; }
   .publication-figure { width: 100%; max-width: none; margin: 0; padding: 13px; }
@@ -216,7 +204,7 @@ main { min-width: 0; }
   .about h2 { font-size: 27px; }
   .section { margin-bottom: 24px; }
   .publication[hidden], .publication-year[hidden] { display: block !important; }
-  .publication, .experience-item, .award-item, .research-grid { break-inside: avoid; }
+  .publication, .experience-item, .award-item { break-inside: avoid; }
   .publication { display: block; }
   .publication-figure { display: none; }
   .publication-title { font-size: 13pt; }
