@@ -39,7 +39,6 @@ function filterPublications() {
   document.querySelectorAll('.publication-year').forEach(group => {
     const visible = [...group.querySelectorAll('.publication')].filter(paper => !paper.hidden).length;
     group.hidden = visible === 0;
-    group.querySelector('.year-label span').textContent = `${String(visible).padStart(2, '0')} ${visible === 1 ? 'paper' : 'papers'}`;
   });
   status.textContent = count === publications.length ? `Showing all ${count} publications` : `Showing ${count} of ${publications.length} publications`;
   document.querySelector('.empty-state').hidden = count !== 0;

@@ -53,7 +53,7 @@ python3 -m http.server 8000
 3. 设置 `data-topic`：`Drug Discovery`、`AI for Science` 或 `Computer Vision`。增加类别时，同时增加带匹配 `data-filter` 的筛选按钮。
 4. 更新标题、作者、期刊、链接和图片。`strong` 用于突出本人姓名。
 5. 把框架图和 PDF 分别放进 `images/` 和 `files/`；注意路径大小写。
-6. 更新 HTML 中的年份篇数及初始统计文字；启用 JavaScript 后，统计会自动计算。
+6. 更新供屏幕阅读器使用的初始统计文字；启用 JavaScript 后，统计会自动计算。年份标题只展示年份。
 
 框架图采用 `object-fit: contain` 完整显示，点击可打开原图。头像文件为 `images/avatar.jpg`，裁剪由 `.profile-photo img` 控制；加载失败时显示姓名首字母。
 
