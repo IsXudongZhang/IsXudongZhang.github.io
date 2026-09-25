@@ -19,6 +19,7 @@
 index.html           页面内容和论文条目
 styles.css           学术排版、响应式布局与打印样式
 script.js            移动导航、导航高亮、头像加载回退
+likes.js             红心按钮、共享点赞计数和浏览器去重
 images/              头像、框架图和 favicon.svg
 files/               论文 PDF
 CNAME                原有自定义域名配置
@@ -33,6 +34,19 @@ python3 -m http.server 8000
 ```
 
 打开 `http://localhost:8000`。也可直接打开 `index.html`。禁用 JavaScript 时，全部论文、章节导航及历史动态仍可访问。
+
+## 红心点赞
+
+头像下方的红心按钮展示所有访客累计点赞数，使用 [Abacus](https://v2.jasoncameron.dev/abacus) 保存共享计数。正式计数标识为 `xudongzhang.cn/homepage-likes`，不同域名入口共享同一个总数。
+
+- 页面加载只调用 `/get/xudongzhang.cn/homepage-likes`；只有主动点击才调用 `/hit/xudongzhang.cn/homepage-likes`。
+- 服务确认成功后显示实心红心并记住当前浏览器的点赞状态，不提供取消点赞。`localStorage` 只用于浏览器去重，不用于生成总数。
+- 同源标签页通过 Storage 事件同步状态，并在支持 Web Locks 的浏览器中串行处理提交，避免同时点击重复计数。
+- 加载失败显示 `—` 和提示，不伪造数字；提交失败不显示成功，也不自动重试。请求超时为 8 秒。
+- 使用原生按钮、键盘焦点和 `aria-pressed`；禁用 JavaScript 或打印时隐藏按钮。
+- 这是轻量匿名计数，不是严格的独立访客统计：清除浏览器存储、切换浏览器/域名或主动调用公开接口仍可能重复计数。禁用存储时仅在当前页面防重复。
+- 不需要把 API 密钥放入网页；浏览器仅访问计数接口，不加载第三方脚本。请求不携带浏览器凭据或 Referer。
+- 计数可用性取决于第三方服务；Abacus 文档注明计数在连续 6 个月未访问后可能过期。正式计数的管理凭据若已创建，仅保存在本机 `.git/homepage-likes-admin.json`，不得加入网站文件或提交。
 
 ## 更新资料
 
