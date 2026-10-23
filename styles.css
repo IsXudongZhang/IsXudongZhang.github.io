@@ -64,6 +64,7 @@ main { min-width: 0; }
 .news-list time, .award-date { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; padding-top: 1px; }
 .year-label { font: 21px var(--serif); display: flex; align-items: center; gap: 12px; color: var(--accent); padding: 12px 0 4px; }
 .publication { display: grid; grid-template-columns: 174px minmax(0,1fr); gap: 23px; padding: 23px 0; border-bottom: 1px solid var(--line); }
+.publication.publication-text-only { grid-template-columns: minmax(0,1fr); }
 .publication-year + .publication-year { margin-top: 19px; }
 .publication-figure { align-self: start; display: block; border: 1px solid var(--line); border-radius: 3px; background: white; padding: 10px; margin: 4px 0 0; }
 .publication-figure img { width: 100%; height: 125px; object-fit: contain; }
