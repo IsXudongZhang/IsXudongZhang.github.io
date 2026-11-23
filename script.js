@@ -23,6 +23,24 @@ document.addEventListener('keydown', (event) => {
 });
 window.matchMedia('(max-width: 700px)').addEventListener('change', () => closeMenu());
 
+// Show the latest ten news items; keep all items accessible without JavaScript.
+const newsList = document.querySelector('#news-list');
+const newsToggle = document.querySelector('.news-toggle');
+if (newsList && newsToggle && newsList.children.length > 10) {
+  const olderCount = newsList.children.length - 10;
+  const moreLabel = `Show more news (${olderCount})`;
+  newsList.classList.add('is-collapsed');
+  newsToggle.textContent = moreLabel;
+  newsToggle.hidden = false;
+  newsToggle.addEventListener('click', () => {
+    const expanded = newsToggle.getAttribute('aria-expanded') !== 'true';
+    newsList.classList.toggle('is-collapsed', !expanded);
+    newsToggle.setAttribute('aria-expanded', String(expanded));
+    newsToggle.textContent = expanded ? 'Show less news' : moreLabel;
+    updateActiveSection();
+  });
+}
+
 // Keep the section indicator in sync when navigating or scrolling.
 const navLinks = [...nav.querySelectorAll('a')];
 const sections = navLinks.map(link => document.querySelector(link.getAttribute('href')));

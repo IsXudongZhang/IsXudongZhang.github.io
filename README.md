@@ -6,7 +6,7 @@
 
 - 个人资料、导师与实验室、邮箱、Google Scholar 和 GitHub
 - 个人介绍中的研究方向（AI4Science：药物发现、抗体发现、虚拟细胞与器官、自动化实验室）与合作联系入口
-- 按时间倒序完整展示的动态
+- 按时间倒序展示的动态，默认显示最新 10 条，其余可展开/收起
 - 按年份倒序分组、完整展示的论文
 - 研究经历、荣誉奖项和学术服务
 - 论文 PDF、代码及可单独查看的完整框架图
@@ -18,7 +18,7 @@
 ```text
 index.html           页面内容和论文条目
 styles.css           学术排版、响应式布局与打印样式
-script.js            移动导航、导航高亮、头像加载回退
+script.js            移动导航、动态展开/收起、导航高亮、头像加载回退
 images/              头像、框架图和 favicon.svg
 files/               论文 PDF
 CNAME                原有自定义域名配置
@@ -42,7 +42,7 @@ python3 -m http.server 8000
 | --- | --- |
 | 个人资料与联系信息 | `.profile` |
 | 个人简介、研究方向与合作联系 | `#about` |
-| 动态 | `#news` 中的 `.news-list`，全部直接展示 |
+| 动态 | `#news` 中的 `.news-list`，默认展示前 10 条 |
 | 论文 | `#publications` |
 | 经历、荣誉、学术服务 | `#experience`、`#honors`、`#service` |
 
@@ -57,7 +57,7 @@ python3 -m http.server 8000
 
 ### 添加动态
 
-使用 `<time datetime="YYYY-MM">YYYY.MM</time>`，按时间倒序添加到 `#news` 中的 `.news-list`。所有动态直接展示，无需折叠或展开。
+使用 `<time datetime="YYYY-MM">YYYY.MM</time>`，按时间倒序添加到 `#news` 中的 `.news-list`。默认展示最新 10 条，剩余条目通过 Show more news / Show less news 展开和收起。新增条目后会自动调整折叠范围；不足 11 条时不显示按钮。禁用 JavaScript 或打印时展示全部动态。
 
 ## 响应式与无障碍
 
