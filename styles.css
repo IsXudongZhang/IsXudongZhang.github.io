@@ -85,6 +85,7 @@ main { min-width: 0; }
 .award-item { padding: 10px 0; }
 .award-item + .award-item { border-top: 1px solid #e9ede8; }
 .service-layout { display: grid; grid-template-columns: 145px minmax(0,1fr); gap: 25px; }
+.service-layout + .service-layout { margin-top: 20px; }
 .service-layout h3 { font-size: 14px; font-weight: 500; color: var(--muted); }
 .service-layout ul { margin: 0; padding: 0; list-style: none; font-size: 15px; }
 .service-layout li + li { margin-top: 5px; }
